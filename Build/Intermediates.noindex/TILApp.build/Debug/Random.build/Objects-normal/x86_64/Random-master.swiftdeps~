@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "7043bf8e0ebe91b719a0b30ea63e3259"
+build_time: [1539530000, 187118000]
+inputs:
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/Random/Array+Random.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/Random/OSRandom.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/Random/RandomProtocol.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/Random/URandom.swift": [1538471680, 0]

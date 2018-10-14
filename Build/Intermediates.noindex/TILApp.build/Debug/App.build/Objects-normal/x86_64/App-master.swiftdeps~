@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "7eae5fd773e5ca3eb1251fcaa5eb80e7"
+build_time: [1539530009, 86472000]
+inputs:
+  "/Users/petercernak/vapor/TILApp/Sources/App/Models/Acronym.swift": [1538511446, 0]
+  "/Users/petercernak/vapor/TILApp/Sources/App/app.swift": [1538425661, 0]
+  "/Users/petercernak/vapor/TILApp/Sources/App/boot.swift": [1538425661, 0]
+  "/Users/petercernak/vapor/TILApp/Sources/App/configure.swift": [1538479756, 0]
+  "/Users/petercernak/vapor/TILApp/Sources/App/routes.swift": [1538544035, 0]

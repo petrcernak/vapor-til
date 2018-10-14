@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "5d41086cd6d5eb02523c5c4680ce5bb6"
+build_time: [1539530008, 650556000]
+inputs:
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/Deprecated.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/Exports.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/Fluent+PostgreSQLUpsert.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/FluentPostgreSQLProvider.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/FluentPostgreSQLQuery.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/FluentPostgreSQLSchema.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/PostgreSQLDatabase+JoinSupporting.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/PostgreSQLDatabase+KeyedCacheSupporting.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/PostgreSQLDatabase+MigrationSupporting.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/PostgreSQLDatabase+QuerySupporting.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/PostgreSQLDatabase+SchemaSupporting.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/PostgreSQLDatabase+TransactionSupporting.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/PostgreSQLEnum.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/PostgreSQLModel.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/PostgreSQLStringModel.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/PostgreSQLUUIDModel.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent-postgresql.git--2073098396938697660/Sources/FluentPostgreSQL/Utilities.swift": [1538471684, 0]

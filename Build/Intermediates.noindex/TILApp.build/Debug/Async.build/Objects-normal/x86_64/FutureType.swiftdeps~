@@ -1,0 +1,73 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FutureResultCallback"
+- "FutureType"
+- "FutureResult"
+provides-nominal:
+- "5Async10FutureTypeP"
+- "3NIO15EventLoopFutureC"
+- "5Async12FutureResultO"
+provides-member:
+- ["5Async10FutureTypeP", ""]
+- ["3NIO15EventLoopFutureC", ""]
+- ["5Async12FutureResultO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Error"
+- "EventLoopFuture"
+- "FutureResult"
+- "FutureResultCallback"
+- "FutureType"
+depends-member:
+- ["SQ", "Expectation"]
+- ["SQ", "addAwaiter"]
+- !private ["SQ", "catch"]
+- !private ["SQ", "do"]
+- ["3NIO15EventLoopFutureC", "Expectation"]
+- ["3NIO15EventLoopFutureC", "FutureResult"]
+- ["3NIO15EventLoopFutureC", "T"]
+- ["3NIO15EventLoopFutureC", "addAwaiter"]
+- !private ["3NIO15EventLoopFutureC", "catch"]
+- ["3NIO15EventLoopFutureC", "deinit"]
+- !private ["3NIO15EventLoopFutureC", "do"]
+- ["5Async12FutureResultO", "Error"]
+- ["5Async12FutureResultO", "T"]
+- ["5Async12FutureResultO", "error"]
+- ["5Async12FutureResultO", "result"]
+- ["5Async12FutureResultO", "success"]
+- ["5Async12FutureResultO", "unwrap"]
+- ["5Async10FutureTypeP", "Expectation"]
+- ["5Async10FutureTypeP", "FutureResult"]
+- ["5Async10FutureTypeP", "FutureResultCallback"]
+- ["5Async10FutureTypeP", "Result"]
+- ["5Async10FutureTypeP", ""]
+- ["5Async10FutureTypeP", "addAwaiter"]
+- !private ["5Async10FutureTypeP", "catch"]
+- !private ["5Async10FutureTypeP", "do"]
+depends-nominal:
+- "SQ"
+- "3NIO15EventLoopFutureC"
+- "5Async12FutureResultO"
+- "5Async10FutureTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-zlib-support.git--8689586224853335979/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "1e371e7dd4a92566a200265edda5a37b"

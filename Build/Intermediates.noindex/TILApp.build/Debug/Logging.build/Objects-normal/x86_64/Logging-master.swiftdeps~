@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "d560c6666e18f91d737d49ab7c181b5f"
+build_time: [1539530003, 690610000]
+inputs:
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git--2295225243036103797/Sources/Logging/Exports.swift": [1538471683, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git--2295225243036103797/Sources/Logging/LogLevel.swift": [1538471683, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git--2295225243036103797/Sources/Logging/Logger.swift": [1538471683, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git--2295225243036103797/Sources/Logging/PrintLogger.swift": [1538471683, 0]

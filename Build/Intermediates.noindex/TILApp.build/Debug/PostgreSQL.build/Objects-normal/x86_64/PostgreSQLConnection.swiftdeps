@@ -1,0 +1,748 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostgreSQLConnection"
+provides-nominal:
+- "10PostgreSQL0A13SQLConnectionC"
+provides-member:
+- ["10PostgreSQL0A13SQLConnectionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "BasicWorker"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Channel"
+- "DatabaseConnection"
+- "DatabaseLogger"
+- "DatabaseQueryable"
+- "Decodable"
+- !private "Dictionary"
+- !private "Error"
+- "EventLoop"
+- "Extend"
+- "FloatLiteralType"
+- "Future"
+- "GenericSQLTableIdentifier"
+- "IntegerLiteralType"
+- "PostgreSQLColumn"
+- "PostgreSQLConnection"
+- "PostgreSQLData"
+- "PostgreSQLDatabase"
+- "PostgreSQLError"
+- "PostgreSQLIdentifier"
+- "PostgreSQLMessage"
+- !private "PostgreSQLRowDecoder"
+- "Promise"
+- "QueueHandler"
+- "SQLConnection"
+- "StringLiteralType"
+- "Void"
+- !private "WARNING"
+- !private "assert"
+- !private "closeError"
+- !private "debugOnly"
+depends-member:
+- !private ["10PostgreSQL8AnyArrayP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- ["4Core22AnyReflectionDecodableP", "init"]
+- ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["Sa", "append"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- ["4Core21BasicKeyRepresentableP", "init"]
+- ["4Core21BasicKeyRepresentableP", "init"]
+- ["5Async11BasicWorkerP", "Connection"]
+- ["5Async11BasicWorkerP", "Database"]
+- ["5Async11BasicWorkerP", "Output"]
+- !private ["5Async11BasicWorkerP", "PostgreSQLError"]
+- !private ["5Async11BasicWorkerP", "PostgreSQLMessage"]
+- !private ["5Async11BasicWorkerP", "PostgreSQLRowDecoder"]
+- ["5Async11BasicWorkerP", "Query"]
+- !private ["5Async11BasicWorkerP", "Void"]
+- !private ["5Async11BasicWorkerP", "WARNING"]
+- ["5Async11BasicWorkerP", ""]
+- ["5Async11BasicWorkerP", "_Default_Connection"]
+- ["5Async11BasicWorkerP", "_Default_Output"]
+- ["5Async11BasicWorkerP", "_Default_Query"]
+- !private ["5Async11BasicWorkerP", "assert"]
+- !private ["5Async11BasicWorkerP", "channel"]
+- ["5Async11BasicWorkerP", "close"]
+- !private ["5Async11BasicWorkerP", "closeError"]
+- !private ["5Async11BasicWorkerP", "currentSend"]
+- ["5Async11BasicWorkerP", "databaseConnection"]
+- !private ["5Async11BasicWorkerP", "debugOnly"]
+- ["5Async11BasicWorkerP", "decode"]
+- ["5Async11BasicWorkerP", "eventLoop"]
+- !private ["5Async11BasicWorkerP", "executeCloseHandlersThenClose"]
+- ["5Async11BasicWorkerP", "extend"]
+- ["5Async11BasicWorkerP", "isClosed"]
+- ["5Async11BasicWorkerP", "makeIterator"]
+- ["5Async11BasicWorkerP", "next"]
+- !private ["5Async11BasicWorkerP", "pipeline"]
+- ["5Async11BasicWorkerP", "query"]
+- !private ["5Async11BasicWorkerP", "queue"]
+- !private ["5Async11BasicWorkerP", "send"]
+- ["5Async11BasicWorkerP", "shutdownGracefully"]
+- !private ["5Async11BasicWorkerP", "tableNameCache"]
+- ["5Async11BasicWorkerP", "withSQLConnection"]
+- !private ["SK", "append"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["3NIO7ChannelP", "close"]
+- !private ["3NIO7ChannelP", "closeFuture"]
+- !private ["3NIO7ChannelP", "eventLoop"]
+- !private ["3NIO14ChannelHandlerP", "enqueue"]
+- !private ["3NIO21ChannelInboundHandlerP", "enqueue"]
+- !private ["3NIO22ChannelOutboundInvokerP", "close"]
+- !private ["3NIO22ChannelOutboundInvokerP", "closeFuture"]
+- !private ["3NIO22ChannelOutboundInvokerP", "eventLoop"]
+- !private ["3NIO9CloseModeO", "all"]
+- !private ["Sl", "append"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "errorResponse"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "errorResponse"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["11DatabaseKit0A11ConnectableP", "Connection"]
+- ["11DatabaseKit0A11ConnectableP", "Database"]
+- ["11DatabaseKit0A11ConnectableP", "Output"]
+- !private ["11DatabaseKit0A11ConnectableP", "PostgreSQLError"]
+- !private ["11DatabaseKit0A11ConnectableP", "PostgreSQLMessage"]
+- !private ["11DatabaseKit0A11ConnectableP", "PostgreSQLRowDecoder"]
+- ["11DatabaseKit0A11ConnectableP", "Query"]
+- !private ["11DatabaseKit0A11ConnectableP", "Void"]
+- !private ["11DatabaseKit0A11ConnectableP", "WARNING"]
+- ["11DatabaseKit0A11ConnectableP", ""]
+- ["11DatabaseKit0A11ConnectableP", "_Default_Connection"]
+- ["11DatabaseKit0A11ConnectableP", "_Default_Output"]
+- ["11DatabaseKit0A11ConnectableP", "_Default_Query"]
+- !private ["11DatabaseKit0A11ConnectableP", "assert"]
+- !private ["11DatabaseKit0A11ConnectableP", "channel"]
+- ["11DatabaseKit0A11ConnectableP", "close"]
+- !private ["11DatabaseKit0A11ConnectableP", "closeError"]
+- !private ["11DatabaseKit0A11ConnectableP", "currentSend"]
+- ["11DatabaseKit0A11ConnectableP", "databaseConnection"]
+- !private ["11DatabaseKit0A11ConnectableP", "debugOnly"]
+- ["11DatabaseKit0A11ConnectableP", "decode"]
+- ["11DatabaseKit0A11ConnectableP", "eventLoop"]
+- !private ["11DatabaseKit0A11ConnectableP", "executeCloseHandlersThenClose"]
+- ["11DatabaseKit0A11ConnectableP", "extend"]
+- ["11DatabaseKit0A11ConnectableP", "isClosed"]
+- ["11DatabaseKit0A11ConnectableP", "makeIterator"]
+- ["11DatabaseKit0A11ConnectableP", "next"]
+- !private ["11DatabaseKit0A11ConnectableP", "pipeline"]
+- ["11DatabaseKit0A11ConnectableP", "query"]
+- !private ["11DatabaseKit0A11ConnectableP", "queue"]
+- !private ["11DatabaseKit0A11ConnectableP", "send"]
+- ["11DatabaseKit0A11ConnectableP", "shutdownGracefully"]
+- !private ["11DatabaseKit0A11ConnectableP", "tableNameCache"]
+- ["11DatabaseKit0A11ConnectableP", "withSQLConnection"]
+- ["11DatabaseKit0A10ConnectionP", "Connection"]
+- ["11DatabaseKit0A10ConnectionP", "Database"]
+- ["11DatabaseKit0A10ConnectionP", "Output"]
+- !private ["11DatabaseKit0A10ConnectionP", "PostgreSQLError"]
+- !private ["11DatabaseKit0A10ConnectionP", "PostgreSQLMessage"]
+- !private ["11DatabaseKit0A10ConnectionP", "PostgreSQLRowDecoder"]
+- ["11DatabaseKit0A10ConnectionP", "Query"]
+- !private ["11DatabaseKit0A10ConnectionP", "Void"]
+- !private ["11DatabaseKit0A10ConnectionP", "WARNING"]
+- ["11DatabaseKit0A10ConnectionP", ""]
+- ["11DatabaseKit0A10ConnectionP", "_Default_Connection"]
+- ["11DatabaseKit0A10ConnectionP", "_Default_Output"]
+- ["11DatabaseKit0A10ConnectionP", "_Default_Query"]
+- !private ["11DatabaseKit0A10ConnectionP", "assert"]
+- !private ["11DatabaseKit0A10ConnectionP", "channel"]
+- ["11DatabaseKit0A10ConnectionP", "close"]
+- !private ["11DatabaseKit0A10ConnectionP", "closeError"]
+- !private ["11DatabaseKit0A10ConnectionP", "currentSend"]
+- ["11DatabaseKit0A10ConnectionP", "databaseConnection"]
+- !private ["11DatabaseKit0A10ConnectionP", "debugOnly"]
+- ["11DatabaseKit0A10ConnectionP", "decode"]
+- ["11DatabaseKit0A10ConnectionP", "eventLoop"]
+- !private ["11DatabaseKit0A10ConnectionP", "executeCloseHandlersThenClose"]
+- ["11DatabaseKit0A10ConnectionP", "extend"]
+- ["11DatabaseKit0A10ConnectionP", "isClosed"]
+- ["11DatabaseKit0A10ConnectionP", "makeIterator"]
+- ["11DatabaseKit0A10ConnectionP", "next"]
+- !private ["11DatabaseKit0A10ConnectionP", "pipeline"]
+- ["11DatabaseKit0A10ConnectionP", "query"]
+- !private ["11DatabaseKit0A10ConnectionP", "queue"]
+- !private ["11DatabaseKit0A10ConnectionP", "send"]
+- ["11DatabaseKit0A10ConnectionP", "shutdownGracefully"]
+- !private ["11DatabaseKit0A10ConnectionP", "tableNameCache"]
+- ["11DatabaseKit0A10ConnectionP", "withSQLConnection"]
+- ["11DatabaseKit0A9QueryableP", "Connection"]
+- ["11DatabaseKit0A9QueryableP", "Database"]
+- ["11DatabaseKit0A9QueryableP", "Output"]
+- !private ["11DatabaseKit0A9QueryableP", "PostgreSQLError"]
+- !private ["11DatabaseKit0A9QueryableP", "PostgreSQLMessage"]
+- !private ["11DatabaseKit0A9QueryableP", "PostgreSQLRowDecoder"]
+- ["11DatabaseKit0A9QueryableP", "Query"]
+- !private ["11DatabaseKit0A9QueryableP", "Void"]
+- !private ["11DatabaseKit0A9QueryableP", "WARNING"]
+- ["11DatabaseKit0A9QueryableP", ""]
+- ["11DatabaseKit0A9QueryableP", "_Default_Connection"]
+- ["11DatabaseKit0A9QueryableP", "_Default_Output"]
+- ["11DatabaseKit0A9QueryableP", "_Default_Query"]
+- !private ["11DatabaseKit0A9QueryableP", "assert"]
+- !private ["11DatabaseKit0A9QueryableP", "channel"]
+- ["11DatabaseKit0A9QueryableP", "close"]
+- !private ["11DatabaseKit0A9QueryableP", "closeError"]
+- !private ["11DatabaseKit0A9QueryableP", "currentSend"]
+- ["11DatabaseKit0A9QueryableP", "databaseConnection"]
+- !private ["11DatabaseKit0A9QueryableP", "debugOnly"]
+- ["11DatabaseKit0A9QueryableP", "decode"]
+- ["11DatabaseKit0A9QueryableP", "eventLoop"]
+- !private ["11DatabaseKit0A9QueryableP", "executeCloseHandlersThenClose"]
+- ["11DatabaseKit0A9QueryableP", "extend"]
+- ["11DatabaseKit0A9QueryableP", "isClosed"]
+- ["11DatabaseKit0A9QueryableP", "makeIterator"]
+- ["11DatabaseKit0A9QueryableP", "next"]
+- !private ["11DatabaseKit0A9QueryableP", "pipeline"]
+- ["11DatabaseKit0A9QueryableP", "query"]
+- !private ["11DatabaseKit0A9QueryableP", "queue"]
+- !private ["11DatabaseKit0A9QueryableP", "send"]
+- ["11DatabaseKit0A9QueryableP", "shutdownGracefully"]
+- !private ["11DatabaseKit0A9QueryableP", "tableNameCache"]
+- ["11DatabaseKit0A9QueryableP", "withSQLConnection"]
+- !private ["9Debugging10DebuggableP", "errorResponse"]
+- ["9Debugging10DebuggableP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "always"]
+- !private ["SE", "append"]
+- !private ["SE", "cascade"]
+- !private ["SE", "catchMap"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "then"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "all"]
+- !private ["SQ", "always"]
+- !private ["SQ", "append"]
+- !private ["SQ", "cascade"]
+- !private ["SQ", "catchMap"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "then"]
+- !private ["s5ErrorP", "errorResponse"]
+- ["s5ErrorP", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO13ErrorResponseV", "deinit"]
+- !private ["10PostgreSQL0A10SQLMessageO13ErrorResponseV", "description"]
+- !private ["3NIO9EventLoopP", "newFailedFuture"]
+- !private ["3NIO9EventLoopP", "newPromise"]
+- !private ["3NIO9EventLoopP", "newSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "always"]
+- !private ["3NIO15EventLoopFutureC", "cascade"]
+- !private ["3NIO15EventLoopFutureC", "catchMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO15EventLoopFutureC", "then"]
+- ["3NIO14EventLoopGroupP", "Connection"]
+- ["3NIO14EventLoopGroupP", "Database"]
+- ["3NIO14EventLoopGroupP", "Output"]
+- !private ["3NIO14EventLoopGroupP", "PostgreSQLError"]
+- !private ["3NIO14EventLoopGroupP", "PostgreSQLMessage"]
+- !private ["3NIO14EventLoopGroupP", "PostgreSQLRowDecoder"]
+- ["3NIO14EventLoopGroupP", "Query"]
+- !private ["3NIO14EventLoopGroupP", "Void"]
+- !private ["3NIO14EventLoopGroupP", "WARNING"]
+- ["3NIO14EventLoopGroupP", ""]
+- ["3NIO14EventLoopGroupP", "_Default_Connection"]
+- ["3NIO14EventLoopGroupP", "_Default_Output"]
+- ["3NIO14EventLoopGroupP", "_Default_Query"]
+- !private ["3NIO14EventLoopGroupP", "assert"]
+- !private ["3NIO14EventLoopGroupP", "channel"]
+- ["3NIO14EventLoopGroupP", "close"]
+- !private ["3NIO14EventLoopGroupP", "closeError"]
+- !private ["3NIO14EventLoopGroupP", "currentSend"]
+- ["3NIO14EventLoopGroupP", "databaseConnection"]
+- !private ["3NIO14EventLoopGroupP", "debugOnly"]
+- ["3NIO14EventLoopGroupP", "decode"]
+- ["3NIO14EventLoopGroupP", "eventLoop"]
+- !private ["3NIO14EventLoopGroupP", "executeCloseHandlersThenClose"]
+- ["3NIO14EventLoopGroupP", "extend"]
+- ["3NIO14EventLoopGroupP", "isClosed"]
+- ["3NIO14EventLoopGroupP", "makeIterator"]
+- !private ["3NIO14EventLoopGroupP", "newFailedFuture"]
+- !private ["3NIO14EventLoopGroupP", "newPromise"]
+- !private ["3NIO14EventLoopGroupP", "newSucceededFuture"]
+- ["3NIO14EventLoopGroupP", "next"]
+- !private ["3NIO14EventLoopGroupP", "pipeline"]
+- ["3NIO14EventLoopGroupP", "query"]
+- !private ["3NIO14EventLoopGroupP", "queue"]
+- !private ["3NIO14EventLoopGroupP", "send"]
+- ["3NIO14EventLoopGroupP", "shutdownGracefully"]
+- !private ["3NIO14EventLoopGroupP", "tableNameCache"]
+- ["3NIO14EventLoopGroupP", "withSQLConnection"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "identifier"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "identifier"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "identifier"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- ["7Service10ExtendableP", "Connection"]
+- ["7Service10ExtendableP", "Database"]
+- ["7Service10ExtendableP", "Output"]
+- !private ["7Service10ExtendableP", "PostgreSQLError"]
+- !private ["7Service10ExtendableP", "PostgreSQLMessage"]
+- !private ["7Service10ExtendableP", "PostgreSQLRowDecoder"]
+- ["7Service10ExtendableP", "Query"]
+- !private ["7Service10ExtendableP", "Void"]
+- !private ["7Service10ExtendableP", "WARNING"]
+- ["7Service10ExtendableP", ""]
+- ["7Service10ExtendableP", "_Default_Connection"]
+- ["7Service10ExtendableP", "_Default_Output"]
+- ["7Service10ExtendableP", "_Default_Query"]
+- !private ["7Service10ExtendableP", "assert"]
+- !private ["7Service10ExtendableP", "channel"]
+- ["7Service10ExtendableP", "close"]
+- !private ["7Service10ExtendableP", "closeError"]
+- !private ["7Service10ExtendableP", "currentSend"]
+- ["7Service10ExtendableP", "databaseConnection"]
+- !private ["7Service10ExtendableP", "debugOnly"]
+- ["7Service10ExtendableP", "decode"]
+- ["7Service10ExtendableP", "eventLoop"]
+- !private ["7Service10ExtendableP", "executeCloseHandlersThenClose"]
+- ["7Service10ExtendableP", "extend"]
+- ["7Service10ExtendableP", "isClosed"]
+- ["7Service10ExtendableP", "makeIterator"]
+- ["7Service10ExtendableP", "next"]
+- !private ["7Service10ExtendableP", "pipeline"]
+- ["7Service10ExtendableP", "query"]
+- !private ["7Service10ExtendableP", "queue"]
+- !private ["7Service10ExtendableP", "send"]
+- ["7Service10ExtendableP", "shutdownGracefully"]
+- !private ["7Service10ExtendableP", "tableNameCache"]
+- ["7Service10ExtendableP", "withSQLConnection"]
+- !private ["5Async10FutureTypeP", "always"]
+- !private ["5Async10FutureTypeP", "cascade"]
+- !private ["5Async10FutureTypeP", "catchMap"]
+- !private ["5Async10FutureTypeP", "map"]
+- !private ["5Async10FutureTypeP", "then"]
+- !private ["3SQL20GenericSQLIdentifierV", "string"]
+- !private ["3SQL25GenericSQLTableIdentifierV", "identifier"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "all"]
+- !private ["SH", "append"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["10Foundation14LocalizedErrorP", "errorResponse"]
+- ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- ["4Core23LosslessDataConvertibleP", "init"]
+- ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- ["10PostgreSQL0A9SQLColumnV", "deinit"]
+- ["10PostgreSQL0A13SQLConnectionC", "Bool"]
+- ["10PostgreSQL0A13SQLConnectionC", "Channel"]
+- ["10PostgreSQL0A13SQLConnectionC", "Connection"]
+- ["10PostgreSQL0A13SQLConnectionC", "Database"]
+- ["10PostgreSQL0A13SQLConnectionC", "DatabaseLogger"]
+- ["10PostgreSQL0A13SQLConnectionC", "Decodable"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "Error"]
+- ["10PostgreSQL0A13SQLConnectionC", "EventLoop"]
+- ["10PostgreSQL0A13SQLConnectionC", "Extend"]
+- ["10PostgreSQL0A13SQLConnectionC", "Future"]
+- ["10PostgreSQL0A13SQLConnectionC", "GenericSQLTableIdentifier"]
+- ["10PostgreSQL0A13SQLConnectionC", "Output"]
+- ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLColumn"]
+- ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLData"]
+- ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLDatabase"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLError"]
+- ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLIdentifier"]
+- ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLMessage"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLRowDecoder"]
+- ["10PostgreSQL0A13SQLConnectionC", "Promise"]
+- ["10PostgreSQL0A13SQLConnectionC", "Query"]
+- ["10PostgreSQL0A13SQLConnectionC", "QueueHandler"]
+- ["10PostgreSQL0A13SQLConnectionC", "TableNameCache"]
+- ["10PostgreSQL0A13SQLConnectionC", "Void"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "WARNING"]
+- ["10PostgreSQL0A13SQLConnectionC", "_Default_Connection"]
+- ["10PostgreSQL0A13SQLConnectionC", "_Default_Output"]
+- ["10PostgreSQL0A13SQLConnectionC", "_Default_Query"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "assert"]
+- ["10PostgreSQL0A13SQLConnectionC", "channel"]
+- ["10PostgreSQL0A13SQLConnectionC", "close"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "closeError"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "currentSend"]
+- ["10PostgreSQL0A13SQLConnectionC", "databaseConnection"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "debugOnly"]
+- ["10PostgreSQL0A13SQLConnectionC", "decode"]
+- ["10PostgreSQL0A13SQLConnectionC", "deinit"]
+- ["10PostgreSQL0A13SQLConnectionC", "eventLoop"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "executeCloseHandlersThenClose"]
+- ["10PostgreSQL0A13SQLConnectionC", "extend"]
+- ["10PostgreSQL0A13SQLConnectionC", "init"]
+- ["10PostgreSQL0A13SQLConnectionC", "isClosed"]
+- ["10PostgreSQL0A13SQLConnectionC", "logger"]
+- ["10PostgreSQL0A13SQLConnectionC", "makeIterator"]
+- ["10PostgreSQL0A13SQLConnectionC", "next"]
+- ["10PostgreSQL0A13SQLConnectionC", "operation"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "pipeline"]
+- ["10PostgreSQL0A13SQLConnectionC", "query"]
+- ["10PostgreSQL0A13SQLConnectionC", "queue"]
+- ["10PostgreSQL0A13SQLConnectionC", "send"]
+- ["10PostgreSQL0A13SQLConnectionC", "shutdownGracefully"]
+- ["10PostgreSQL0A13SQLConnectionC", "tableNameCache"]
+- ["10PostgreSQL0A13SQLConnectionC", "withSQLConnection"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "_getBuiltinLogicValue"]
+- ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "_getBuiltinLogicValue"]
+- ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- ["10PostgreSQL0A11SQLDatabaseC", "deinit"]
+- !private ["10PostgreSQL0A8SQLErrorV", "deinit"]
+- !private ["10PostgreSQL0A8SQLErrorV", "errorResponse"]
+- ["10PostgreSQL0A8SQLErrorV", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO", "error"]
+- !private ["10PostgreSQL0A10SQLMessageO", "notice"]
+- !private ["10PostgreSQL0A10SQLMessageO", "readyForQuery"]
+- ["10PostgreSQL0A8SQLQueryO", "deinit"]
+- !private ["10PostgreSQL0A13SQLRowDecoderV", "decode"]
+- !private ["10PostgreSQL0A13SQLRowDecoderV", "init"]
+- !private ["5Async12QueueHandlerC", "enqueue"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- ["4Core19ReflectionDecodableP", "init"]
+- ["4Core19ReflectionDecodableP", "init"]
+- ["3SQL14SQLConnectableP", "Connection"]
+- ["3SQL14SQLConnectableP", "Database"]
+- ["3SQL14SQLConnectableP", "Output"]
+- !private ["3SQL14SQLConnectableP", "PostgreSQLError"]
+- !private ["3SQL14SQLConnectableP", "PostgreSQLMessage"]
+- !private ["3SQL14SQLConnectableP", "PostgreSQLRowDecoder"]
+- ["3SQL14SQLConnectableP", "Query"]
+- !private ["3SQL14SQLConnectableP", "Void"]
+- !private ["3SQL14SQLConnectableP", "WARNING"]
+- ["3SQL14SQLConnectableP", ""]
+- ["3SQL14SQLConnectableP", "_Default_Connection"]
+- ["3SQL14SQLConnectableP", "_Default_Output"]
+- ["3SQL14SQLConnectableP", "_Default_Query"]
+- !private ["3SQL14SQLConnectableP", "assert"]
+- !private ["3SQL14SQLConnectableP", "channel"]
+- ["3SQL14SQLConnectableP", "close"]
+- !private ["3SQL14SQLConnectableP", "closeError"]
+- !private ["3SQL14SQLConnectableP", "currentSend"]
+- ["3SQL14SQLConnectableP", "databaseConnection"]
+- !private ["3SQL14SQLConnectableP", "debugOnly"]
+- ["3SQL14SQLConnectableP", "decode"]
+- ["3SQL14SQLConnectableP", "eventLoop"]
+- !private ["3SQL14SQLConnectableP", "executeCloseHandlersThenClose"]
+- ["3SQL14SQLConnectableP", "extend"]
+- ["3SQL14SQLConnectableP", "isClosed"]
+- ["3SQL14SQLConnectableP", "makeIterator"]
+- ["3SQL14SQLConnectableP", "next"]
+- !private ["3SQL14SQLConnectableP", "pipeline"]
+- ["3SQL14SQLConnectableP", "query"]
+- !private ["3SQL14SQLConnectableP", "queue"]
+- !private ["3SQL14SQLConnectableP", "send"]
+- ["3SQL14SQLConnectableP", "shutdownGracefully"]
+- !private ["3SQL14SQLConnectableP", "tableNameCache"]
+- ["3SQL14SQLConnectableP", "withSQLConnection"]
+- ["3SQL13SQLConnectionP", "Connection"]
+- ["3SQL13SQLConnectionP", "Database"]
+- ["3SQL13SQLConnectionP", "Output"]
+- !private ["3SQL13SQLConnectionP", "PostgreSQLError"]
+- !private ["3SQL13SQLConnectionP", "PostgreSQLMessage"]
+- !private ["3SQL13SQLConnectionP", "PostgreSQLRowDecoder"]
+- ["3SQL13SQLConnectionP", "Query"]
+- !private ["3SQL13SQLConnectionP", "Void"]
+- !private ["3SQL13SQLConnectionP", "WARNING"]
+- ["3SQL13SQLConnectionP", ""]
+- ["3SQL13SQLConnectionP", "_Default_Connection"]
+- ["3SQL13SQLConnectionP", "_Default_Output"]
+- ["3SQL13SQLConnectionP", "_Default_Query"]
+- !private ["3SQL13SQLConnectionP", "assert"]
+- !private ["3SQL13SQLConnectionP", "channel"]
+- ["3SQL13SQLConnectionP", "close"]
+- !private ["3SQL13SQLConnectionP", "closeError"]
+- !private ["3SQL13SQLConnectionP", "currentSend"]
+- ["3SQL13SQLConnectionP", "databaseConnection"]
+- !private ["3SQL13SQLConnectionP", "debugOnly"]
+- ["3SQL13SQLConnectionP", "decode"]
+- ["3SQL13SQLConnectionP", "eventLoop"]
+- !private ["3SQL13SQLConnectionP", "executeCloseHandlersThenClose"]
+- ["3SQL13SQLConnectionP", "extend"]
+- ["3SQL13SQLConnectionP", "isClosed"]
+- ["3SQL13SQLConnectionP", "makeIterator"]
+- ["3SQL13SQLConnectionP", "next"]
+- !private ["3SQL13SQLConnectionP", "pipeline"]
+- ["3SQL13SQLConnectionP", "query"]
+- !private ["3SQL13SQLConnectionP", "queue"]
+- !private ["3SQL13SQLConnectionP", "send"]
+- ["3SQL13SQLConnectionP", "shutdownGracefully"]
+- !private ["3SQL13SQLConnectionP", "tableNameCache"]
+- ["3SQL13SQLConnectionP", "withSQLConnection"]
+- !private ["3SQL13SQLIdentifierP", "string"]
+- !private ["3SQL15SQLSerializableP", "identifier"]
+- !private ["3SQL15SQLSerializableP", "string"]
+- !private ["3SQL18SQLTableIdentifierP", "identifier"]
+- !private ["ST", "append"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["10PostgreSQL0A13SQLConnectionC14TableNameCacheV", "tableOID"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["3NIO22_ChannelInboundHandlerP", "enqueue"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["3NIO23_EmittingChannelHandlerP", "enqueue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "10PostgreSQL8AnyArrayP"
+- "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "4Core21BasicKeyRepresentableP"
+- "5Async11BasicWorkerP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "3NIO7ChannelP"
+- !private "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelInboundHandlerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- !private "3NIO9CloseModeO"
+- "Sl"
+- "SL"
+- !private "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "11DatabaseKit0A11ConnectableP"
+- "11DatabaseKit0A10ConnectionP"
+- "11DatabaseKit0A9QueryableP"
+- "9Debugging10DebuggableP"
+- "Se"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "10PostgreSQL0A10SQLMessageO13ErrorResponseV"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "7Service10ExtendableP"
+- !private "5Async10FutureTypeP"
+- !private "3SQL20GenericSQLIdentifierV"
+- !private "3SQL25GenericSQLTableIdentifierV"
+- "SH"
+- "10Foundation14LocalizedErrorP"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- "10PostgreSQL0A9SQLColumnV"
+- "10PostgreSQL0A13SQLConnectionC"
+- "10PostgreSQL0A18SQLDataConvertibleP"
+- "10PostgreSQL0A30SQLDataTypeStaticRepresentableP"
+- "10PostgreSQL0A11SQLDatabaseC"
+- "10PostgreSQL0A8SQLErrorV"
+- !private "10PostgreSQL0A10SQLMessageO"
+- "10PostgreSQL0A8SQLQueryO"
+- !private "10PostgreSQL0A13SQLRowDecoderV"
+- !private "5Async12QueueHandlerC"
+- !private "Sk"
+- "Sm"
+- "4Core19ReflectionDecodableP"
+- "3SQL14SQLConnectableP"
+- "3SQL13SQLConnectionP"
+- !private "3SQL13SQLIdentifierP"
+- !private "3SQL15SQLSerializableP"
+- !private "3SQL18SQLTableIdentifierP"
+- "ST"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- !private "10PostgreSQL0A13SQLConnectionC14TableNameCacheV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "3NIO22_ChannelInboundHandlerP"
+- !private "s24_DestructorSafeContainerP"
+- !private "3NIO23_EmittingChannelHandlerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ec.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl.git-4185672342095147391/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--4097429712292640209/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bn.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/err.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslv.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509_vfy.h"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl-support.git--5344386155445180204/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-zlib-support.git--6538424668019974428/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--4097429712292640209/Sources/CBase32/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--4097429712292640209/Sources/CBcrypt/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0d626260485c3e35688440fd5cddc946"

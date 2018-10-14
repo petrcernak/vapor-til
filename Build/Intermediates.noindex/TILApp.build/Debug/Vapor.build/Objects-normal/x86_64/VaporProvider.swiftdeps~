@@ -1,0 +1,237 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VaporProvider"
+provides-nominal:
+- "5Vapor0A8ProviderP"
+provides-member:
+- ["5Vapor0A8ProviderP", ""]
+- ["Sa", ""]
+- ["Sa", "onlyVapor"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- !private "CastingPrecedence"
+- "Container"
+- "Future"
+- "Provider"
+- "VaporProvider"
+- "Void"
+depends-member:
+- ["4Core22AnyReflectionDecodableP", "Provider"]
+- !private ["4Core22AnyReflectionDecodableP", "compactMap"]
+- ["Sa", "Provider"]
+- ["Sa", "VaporProvider"]
+- !private ["Sa", "compactMap"]
+- ["Sa", "onlyVapor"]
+- ["s13ArrayProtocolP", "Provider"]
+- !private ["s13ArrayProtocolP", "compactMap"]
+- ["SK", "Provider"]
+- !private ["SK", "compactMap"]
+- ["s7CVarArgP", "Provider"]
+- !private ["s7CVarArgP", "compactMap"]
+- ["Sl", "Provider"]
+- !private ["Sl", "compactMap"]
+- ["5Vapor7ContentP", "Provider"]
+- !private ["5Vapor7ContentP", "compactMap"]
+- ["3NIO20ContiguousCollectionP", "Provider"]
+- !private ["3NIO20ContiguousCollectionP", "compactMap"]
+- ["s28CustomDebugStringConvertibleP", "Provider"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- ["s17CustomReflectableP", "Provider"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- ["s23CustomStringConvertibleP", "Provider"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- ["Se", "Provider"]
+- !private ["Se", "compactMap"]
+- ["SE", "Provider"]
+- !private ["SE", "compactMap"]
+- ["SQ", "Provider"]
+- !private ["SQ", "compactMap"]
+- ["s25ExpressibleByArrayLiteralP", "Provider"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- ["SH", "Provider"]
+- !private ["SH", "compactMap"]
+- ["4Core23LosslessDataConvertibleP", "Provider"]
+- !private ["4Core23LosslessDataConvertibleP", "compactMap"]
+- ["SM", "Provider"]
+- !private ["SM", "compactMap"]
+- ["7Routing27PathComponentsRepresentableP", "Provider"]
+- !private ["7Routing27PathComponentsRepresentableP", "compactMap"]
+- ["7Service8ProviderP", "Container"]
+- ["7Service8ProviderP", "Future"]
+- ["7Service8ProviderP", "Void"]
+- ["7Service8ProviderP", ""]
+- ["Sk", "Provider"]
+- !private ["Sk", "compactMap"]
+- ["Sm", "Provider"]
+- !private ["Sm", "compactMap"]
+- ["4Core19ReflectionDecodableP", "Provider"]
+- !private ["4Core19ReflectionDecodableP", "compactMap"]
+- ["5Vapor16RequestDecodableP", "Provider"]
+- !private ["5Vapor16RequestDecodableP", "compactMap"]
+- ["5Vapor16RequestEncodableP", "Provider"]
+- !private ["5Vapor16RequestEncodableP", "compactMap"]
+- ["5Vapor17ResponseDecodableP", "Provider"]
+- !private ["5Vapor17ResponseDecodableP", "compactMap"]
+- ["5Vapor17ResponseEncodableP", "Provider"]
+- !private ["5Vapor17ResponseEncodableP", "compactMap"]
+- ["ST", "Provider"]
+- !private ["ST", "compactMap"]
+- ["5Vapor0A8ProviderP", "Container"]
+- ["5Vapor0A8ProviderP", "Future"]
+- ["5Vapor0A8ProviderP", "Void"]
+- ["5Vapor0A8ProviderP", "didRun"]
+- ["5Vapor0A8ProviderP", "willRun"]
+- ["s24_DestructorSafeContainerP", "Provider"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Provider"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- ["s21_ObjectiveCBridgeableP", "Provider"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+depends-nominal:
+- "4Core22AnyReflectionDecodableP"
+- "Sa"
+- "s13ArrayProtocolP"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "5Vapor7ContentP"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "4Core23LosslessDataConvertibleP"
+- "SM"
+- "7Routing27PathComponentsRepresentableP"
+- "7Service8ProviderP"
+- "Sk"
+- "Sm"
+- "4Core19ReflectionDecodableP"
+- "5Vapor16RequestDecodableP"
+- "5Vapor16RequestEncodableP"
+- "5Vapor17ResponseDecodableP"
+- "5Vapor17ResponseEncodableP"
+- "ST"
+- "5Vapor0A8ProviderP"
+- "s24_DestructorSafeContainerP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOHTTP1.framework/Modules/NIOHTTP1.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/HTTP.framework/Modules/HTTP.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Command.framework/Modules/Command.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Logging.framework/Modules/Logging.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Routing.framework/Modules/Routing.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/URLEncodedForm.framework/Modules/URLEncodedForm.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Validation.framework/Modules/Validation.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/WebSocket.framework/Modules/WebSocket.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOWebSocket.framework/Modules/NIOWebSocket.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/TemplateKit.framework/Modules/TemplateKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Multipart.framework/Modules/Multipart.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOSHA1/include/c_nio_sha1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rsa.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOZlib/include/c_nio_zlib.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ec.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl.git-7027123552182886147/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bn.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/buffer.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/err.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslv.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509_vfy.h"
+- "/Users/petercernak/vapor/ic2/ic2.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl-support.git--4693299605127529262/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-zlib-support.git--8689586224853335979/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/ic2/ic2.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CBase32/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CBcrypt/include/module.modulemap"
+- "/Users/petercernak/vapor/ic2/ic2.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/petercernak/vapor/ic2/ic2.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
+- "/Users/petercernak/vapor/ic2/ic2.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/petercernak/vapor/ic2/ic2.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8757e42ee9a903885e8bc19a24787a8a"

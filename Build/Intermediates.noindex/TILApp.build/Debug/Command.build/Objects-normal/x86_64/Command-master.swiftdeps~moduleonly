@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "952cc7703daff45ec5bef62229065c36"
+build_time: [1539530283, 894351000]
+inputs:
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Base/CommandOption.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Base/CommandRunnable.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Command/Command.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Command/CommandArgument.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Config/CommandConfig.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Config/Commands.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Group/BasicCommandGroup.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Group/CommandGroup.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Run/CommandContext.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Run/CommandInput.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Run/Console+Run.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Run/Output+Autocomplete.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Run/Output+Help.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Utilities/CommandError.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Utilities/Exports.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/console.git-5752444009020230057/Sources/Command/Utilities/Utilities.swift": [1539530229, 0]

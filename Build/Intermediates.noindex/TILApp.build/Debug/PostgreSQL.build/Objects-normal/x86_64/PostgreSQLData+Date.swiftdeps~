@@ -1,0 +1,893 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "10Foundation4DateV"
+provides-member:
+- ["10Foundation4DateV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "*"
+- !private "+"
+- !private "/"
+- "AssignmentPrecedence"
+- !private "Data"
+- "Date"
+- !private "DateFormatter"
+- !private "Double"
+- "FloatLiteralType"
+- !private "Int32"
+- "Int64"
+- "IntegerLiteralType"
+- "PostgreSQLData"
+- "PostgreSQLDataConvertible"
+- !private "PostgreSQLError"
+- "String"
+- !private "StringLiteralType"
+- !private "TimeZone"
+- !private "UnicodeScalarType"
+- !private "_microsecondsPerSecond"
+- !private "_psqlDateStart"
+- !private "_secondsInDay"
+- !private "~="
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "Data"]
+- !private ["4Core22AnyReflectionDecodableP", "Date"]
+- !private ["4Core22AnyReflectionDecodableP", "DateFormatter"]
+- !private ["4Core22AnyReflectionDecodableP", "Double"]
+- !private ["4Core22AnyReflectionDecodableP", "Int32"]
+- !private ["4Core22AnyReflectionDecodableP", "Int64"]
+- !private ["4Core22AnyReflectionDecodableP", "PostgreSQLData"]
+- !private ["4Core22AnyReflectionDecodableP", "PostgreSQLError"]
+- !private ["4Core22AnyReflectionDecodableP", "TimeZone"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "_microsecondsPerSecond"]
+- !private ["4Core22AnyReflectionDecodableP", "_psqlDateStart"]
+- !private ["4Core22AnyReflectionDecodableP", "_secondsInDay"]
+- !private ["4Core22AnyReflectionDecodableP", "as"]
+- !private ["4Core22AnyReflectionDecodableP", "bigEndian"]
+- !private ["4Core22AnyReflectionDecodableP", "contains"]
+- ["4Core22AnyReflectionDecodableP", "convertFromPostgreSQLData"]
+- ["4Core22AnyReflectionDecodableP", "convertToPostgreSQLData"]
+- ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "of"]
+- !private ["4Core22AnyReflectionDecodableP", "parseDate"]
+- !private ["4Core22AnyReflectionDecodableP", "timeIntervalSince"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "bigEndian"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "DateFormatter"]
+- !private ["4Core21BasicKeyRepresentableP", "PostgreSQLError"]
+- !private ["4Core21BasicKeyRepresentableP", "TimeZone"]
+- !private ["4Core21BasicKeyRepresentableP", "contains"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "parseDate"]
+- !private ["SK", "DateFormatter"]
+- !private ["SK", "PostgreSQLError"]
+- !private ["SK", "TimeZone"]
+- !private ["SK", "as"]
+- !private ["SK", "contains"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "of"]
+- !private ["SK", "parseDate"]
+- !private ["SB", "init"]
+- !private ["Sz", "bigEndian"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "PostgreSQLError"]
+- !private ["s7CVarArgP", "TimeZone"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "bigEndian"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "parseDate"]
+- !private ["s7CVarArgP", "timeZone"]
+- !private ["Sl", "DateFormatter"]
+- !private ["Sl", "PostgreSQLError"]
+- !private ["Sl", "TimeZone"]
+- !private ["Sl", "as"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "of"]
+- !private ["Sl", "parseDate"]
+- !private ["SL", "Data"]
+- !private ["SL", "Date"]
+- !private ["SL", "DateFormatter"]
+- !private ["SL", "Double"]
+- !private ["SL", "Int32"]
+- !private ["SL", "Int64"]
+- !private ["SL", "PostgreSQLData"]
+- !private ["SL", "PostgreSQLError"]
+- !private ["SL", "TimeZone"]
+- !private ["SL", "_microsecondsPerSecond"]
+- !private ["SL", "_psqlDateStart"]
+- !private ["SL", "_secondsInDay"]
+- !private ["SL", "bigEndian"]
+- !private ["SL", "contains"]
+- ["SL", "convertFromPostgreSQLData"]
+- ["SL", "convertToPostgreSQLData"]
+- ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "parseDate"]
+- !private ["SL", "timeIntervalSince"]
+- !private ["3NIO20ContiguousCollectionP", "as"]
+- !private ["3NIO20ContiguousCollectionP", "of"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Int32"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- !private ["s28CustomDebugStringConvertibleP", "PostgreSQLData"]
+- !private ["s28CustomDebugStringConvertibleP", "PostgreSQLError"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "_microsecondsPerSecond"]
+- !private ["s28CustomDebugStringConvertibleP", "_psqlDateStart"]
+- !private ["s28CustomDebugStringConvertibleP", "_secondsInDay"]
+- !private ["s28CustomDebugStringConvertibleP", "as"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- ["s28CustomDebugStringConvertibleP", "convertFromPostgreSQLData"]
+- ["s28CustomDebugStringConvertibleP", "convertToPostgreSQLData"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "decode"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "of"]
+- !private ["s28CustomDebugStringConvertibleP", "parseDate"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Data"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Date"]
+- !private ["s29CustomPlaygroundQuickLookableP", "DateFormatter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Int32"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Int64"]
+- !private ["s29CustomPlaygroundQuickLookableP", "PostgreSQLData"]
+- !private ["s29CustomPlaygroundQuickLookableP", "PostgreSQLError"]
+- !private ["s29CustomPlaygroundQuickLookableP", "TimeZone"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_microsecondsPerSecond"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_psqlDateStart"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_secondsInDay"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bigEndian"]
+- !private ["s29CustomPlaygroundQuickLookableP", "contains"]
+- ["s29CustomPlaygroundQuickLookableP", "convertFromPostgreSQLData"]
+- ["s29CustomPlaygroundQuickLookableP", "convertToPostgreSQLData"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "parseDate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince"]
+- !private ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "Date"]
+- !private ["s17CustomReflectableP", "DateFormatter"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "Int32"]
+- !private ["s17CustomReflectableP", "Int64"]
+- !private ["s17CustomReflectableP", "PostgreSQLData"]
+- !private ["s17CustomReflectableP", "PostgreSQLError"]
+- !private ["s17CustomReflectableP", "TimeZone"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_microsecondsPerSecond"]
+- !private ["s17CustomReflectableP", "_psqlDateStart"]
+- !private ["s17CustomReflectableP", "_secondsInDay"]
+- !private ["s17CustomReflectableP", "as"]
+- !private ["s17CustomReflectableP", "bigEndian"]
+- !private ["s17CustomReflectableP", "contains"]
+- ["s17CustomReflectableP", "convertFromPostgreSQLData"]
+- ["s17CustomReflectableP", "convertToPostgreSQLData"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "of"]
+- !private ["s17CustomReflectableP", "parseDate"]
+- !private ["s17CustomReflectableP", "timeIntervalSince"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int32"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "PostgreSQLData"]
+- !private ["s23CustomStringConvertibleP", "PostgreSQLError"]
+- !private ["s23CustomStringConvertibleP", "TimeZone"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_microsecondsPerSecond"]
+- !private ["s23CustomStringConvertibleP", "_psqlDateStart"]
+- !private ["s23CustomStringConvertibleP", "_secondsInDay"]
+- !private ["s23CustomStringConvertibleP", "as"]
+- !private ["s23CustomStringConvertibleP", "bigEndian"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- ["s23CustomStringConvertibleP", "convertFromPostgreSQLData"]
+- ["s23CustomStringConvertibleP", "convertToPostgreSQLData"]
+- ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "decode"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "of"]
+- !private ["s23CustomStringConvertibleP", "parseDate"]
+- !private ["s23CustomStringConvertibleP", "storage"]
+- ["s23CustomStringConvertibleP", "time"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- ["s23CustomStringConvertibleP", "timestamp"]
+- ["s23CustomStringConvertibleP", "timestamptz"]
+- ["s23CustomStringConvertibleP", "timetz"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["10Foundation4DataV", "as"]
+- !private ["10Foundation4DataV", "of"]
+- !private ["10Foundation4DateV", "Data"]
+- ["10Foundation4DateV", "Date"]
+- !private ["10Foundation4DateV", "Double"]
+- !private ["10Foundation4DateV", "Int32"]
+- !private ["10Foundation4DateV", "Int64"]
+- ["10Foundation4DateV", "PostgreSQLData"]
+- !private ["10Foundation4DateV", "PostgreSQLError"]
+- !private ["10Foundation4DateV", "_microsecondsPerSecond"]
+- !private ["10Foundation4DateV", "_psqlDateStart"]
+- !private ["10Foundation4DateV", "_secondsInDay"]
+- ["10Foundation4DateV", "convertFromPostgreSQLData"]
+- ["10Foundation4DateV", "convertToPostgreSQLData"]
+- ["10Foundation4DateV", "deinit"]
+- ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince"]
+- !private ["So15NSDateFormatterC", "date"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "timeZone"]
+- !private ["9Debugging10DebuggableP", "decode"]
+- !private ["9Debugging10DebuggableP", "init"]
+- !private ["Se", "Data"]
+- !private ["Se", "Date"]
+- !private ["Se", "DateFormatter"]
+- !private ["Se", "Double"]
+- !private ["Se", "Int32"]
+- !private ["Se", "Int64"]
+- !private ["Se", "PostgreSQLData"]
+- !private ["Se", "PostgreSQLError"]
+- !private ["Se", "TimeZone"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "_microsecondsPerSecond"]
+- !private ["Se", "_psqlDateStart"]
+- !private ["Se", "_secondsInDay"]
+- !private ["Se", "as"]
+- !private ["Se", "bigEndian"]
+- !private ["Se", "contains"]
+- ["Se", "convertFromPostgreSQLData"]
+- ["Se", "convertToPostgreSQLData"]
+- ["Se", "date"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "of"]
+- !private ["Se", "parseDate"]
+- ["Se", "time"]
+- !private ["Se", "timeIntervalSince"]
+- ["Se", "timestamp"]
+- ["Se", "timestamptz"]
+- ["Se", "timetz"]
+- !private ["Sd", "init"]
+- !private ["SE", "Data"]
+- !private ["SE", "Date"]
+- !private ["SE", "DateFormatter"]
+- !private ["SE", "Double"]
+- !private ["SE", "Int32"]
+- !private ["SE", "Int64"]
+- !private ["SE", "PostgreSQLData"]
+- !private ["SE", "PostgreSQLError"]
+- !private ["SE", "TimeZone"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "_microsecondsPerSecond"]
+- !private ["SE", "_psqlDateStart"]
+- !private ["SE", "_secondsInDay"]
+- !private ["SE", "as"]
+- !private ["SE", "bigEndian"]
+- !private ["SE", "contains"]
+- ["SE", "convertFromPostgreSQLData"]
+- ["SE", "convertToPostgreSQLData"]
+- ["SE", "date"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "of"]
+- !private ["SE", "parseDate"]
+- ["SE", "time"]
+- !private ["SE", "timeIntervalSince"]
+- ["SE", "timestamp"]
+- ["SE", "timestamptz"]
+- ["SE", "timetz"]
+- !private ["SQ", "Data"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "DateFormatter"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Int32"]
+- !private ["SQ", "Int64"]
+- !private ["SQ", "PostgreSQLData"]
+- !private ["SQ", "PostgreSQLError"]
+- !private ["SQ", "TimeZone"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_microsecondsPerSecond"]
+- !private ["SQ", "_psqlDateStart"]
+- !private ["SQ", "_secondsInDay"]
+- !private ["SQ", "as"]
+- !private ["SQ", "bigEndian"]
+- ["SQ", "binary"]
+- !private ["SQ", "contains"]
+- ["SQ", "convertFromPostgreSQLData"]
+- ["SQ", "convertToPostgreSQLData"]
+- ["SQ", "date"]
+- !private ["SQ", "dateFormat"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "null"]
+- !private ["SQ", "of"]
+- !private ["SQ", "parseDate"]
+- !private ["SQ", "storage"]
+- ["SQ", "text"]
+- ["SQ", "time"]
+- !private ["SQ", "timeIntervalSince"]
+- !private ["SQ", "timeZone"]
+- ["SQ", "timestamp"]
+- ["SQ", "timestamptz"]
+- ["SQ", "timetz"]
+- !private ["SQ", "type"]
+- !private ["s5ErrorP", "decode"]
+- !private ["s5ErrorP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "DateFormatter"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "PostgreSQLError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "TimeZone"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "parseDate"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bigEndian"]
+- ["s27ExpressibleByIntegerLiteralP", "date"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "time"]
+- ["s27ExpressibleByIntegerLiteralP", "timestamp"]
+- ["s27ExpressibleByIntegerLiteralP", "timestamptz"]
+- ["s27ExpressibleByIntegerLiteralP", "timetz"]
+- !private ["s26ExpressibleByStringLiteralP", "DateFormatter"]
+- !private ["s26ExpressibleByStringLiteralP", "PostgreSQLError"]
+- !private ["s26ExpressibleByStringLiteralP", "TimeZone"]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "parseDate"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "DateFormatter"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "PostgreSQLError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "TimeZone"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "parseDate"]
+- !private ["s17FixedWidthIntegerP", "bigEndian"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["So11NSFormatterC", "date"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "timeZone"]
+- !private ["SH", "Data"]
+- !private ["SH", "Date"]
+- !private ["SH", "DateFormatter"]
+- !private ["SH", "Double"]
+- !private ["SH", "Int32"]
+- !private ["SH", "Int64"]
+- !private ["SH", "PostgreSQLData"]
+- !private ["SH", "PostgreSQLError"]
+- !private ["SH", "TimeZone"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_microsecondsPerSecond"]
+- !private ["SH", "_psqlDateStart"]
+- !private ["SH", "_secondsInDay"]
+- !private ["SH", "as"]
+- !private ["SH", "bigEndian"]
+- !private ["SH", "contains"]
+- ["SH", "convertFromPostgreSQLData"]
+- ["SH", "convertToPostgreSQLData"]
+- !private ["SH", "date"]
+- !private ["SH", "dateFormat"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "of"]
+- !private ["SH", "parseDate"]
+- !private ["SH", "timeIntervalSince"]
+- !private ["SH", "timeZone"]
+- !private ["s5Int32V", "bigEndian"]
+- !private ["s5Int64V", "bigEndian"]
+- !private ["s5Int64V", "init"]
+- !private ["10Foundation14LocalizedErrorP", "decode"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "DateFormatter"]
+- !private ["4Core23LosslessDataConvertibleP", "PostgreSQLError"]
+- !private ["4Core23LosslessDataConvertibleP", "TimeZone"]
+- !private ["4Core23LosslessDataConvertibleP", "as"]
+- !private ["4Core23LosslessDataConvertibleP", "contains"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "of"]
+- !private ["4Core23LosslessDataConvertibleP", "parseDate"]
+- !private ["s25LosslessStringConvertibleP", "DateFormatter"]
+- !private ["s25LosslessStringConvertibleP", "PostgreSQLError"]
+- !private ["s25LosslessStringConvertibleP", "TimeZone"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "bigEndian"]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "parseDate"]
+- !private ["s10MirrorPathP", "DateFormatter"]
+- !private ["s10MirrorPathP", "PostgreSQLError"]
+- !private ["s10MirrorPathP", "TimeZone"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "parseDate"]
+- !private ["SM", "as"]
+- !private ["SM", "of"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "parseDate"]
+- !private ["So8NSCodingP", "timeZone"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "parseDate"]
+- !private ["So9NSCopyingP", "timeZone"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "parseDate"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "parseDate"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So16NSMutableCopyingP", "parseDate"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "parseDate"]
+- !private ["So8NSObjectC", "timeZone"]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "parseDate"]
+- !private ["So8NSObjectP", "timeZone"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So14NSSecureCodingP", "parseDate"]
+- !private ["So8NSStringC", "contains"]
+- !private ["So8NSStringC", "parseDate"]
+- !private ["Sj", "bigEndian"]
+- !private ["Sj", "init"]
+- !private ["10PostgreSQL0A7SQLDataV", "init"]
+- !private ["10PostgreSQL0A7SQLDataV", "storage"]
+- !private ["10PostgreSQL0A7SQLDataV", "type"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "Data"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "Date"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "DateFormatter"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "Double"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "Int32"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "Int64"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "PostgreSQLData"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "PostgreSQLError"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "TimeZone"]
+- ["10PostgreSQL0A18SQLDataConvertibleP", ""]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "_getBuiltinLogicValue"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "_microsecondsPerSecond"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "_psqlDateStart"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "_secondsInDay"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "as"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "bigEndian"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "contains"]
+- ["10PostgreSQL0A18SQLDataConvertibleP", "convertFromPostgreSQLData"]
+- ["10PostgreSQL0A18SQLDataConvertibleP", "convertToPostgreSQLData"]
+- ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "of"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "parseDate"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "storage"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "timeIntervalSince"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "type"]
+- ["10PostgreSQL0A13SQLDataFormatV", "date"]
+- !private ["10PostgreSQL0A13SQLDataFormatV", "deinit"]
+- ["10PostgreSQL0A13SQLDataFormatV", "time"]
+- ["10PostgreSQL0A13SQLDataFormatV", "timestamp"]
+- ["10PostgreSQL0A13SQLDataFormatV", "timestamptz"]
+- ["10PostgreSQL0A13SQLDataFormatV", "timetz"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "Data"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "Date"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "DateFormatter"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "Double"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "Int32"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "Int64"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "PostgreSQLData"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "PostgreSQLError"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "TimeZone"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "_getBuiltinLogicValue"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "_microsecondsPerSecond"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "_psqlDateStart"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "_secondsInDay"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "as"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "bigEndian"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "contains"]
+- ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "convertFromPostgreSQLData"]
+- ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "convertToPostgreSQLData"]
+- ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "of"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "parseDate"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "timeIntervalSince"]
+- !private ["10PostgreSQL0A8SQLErrorV", "decode"]
+- !private ["10PostgreSQL0A8SQLErrorV", "deinit"]
+- !private ["10PostgreSQL0A8SQLErrorV", "init"]
+- !private ["Sk", "as"]
+- !private ["Sk", "of"]
+- !private ["Sm", "DateFormatter"]
+- !private ["Sm", "PostgreSQLError"]
+- !private ["Sm", "TimeZone"]
+- !private ["Sm", "as"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "of"]
+- !private ["Sm", "parseDate"]
+- !private ["10Foundation20ReferenceConvertibleP", "Data"]
+- !private ["10Foundation20ReferenceConvertibleP", "Date"]
+- !private ["10Foundation20ReferenceConvertibleP", "Double"]
+- !private ["10Foundation20ReferenceConvertibleP", "Int32"]
+- !private ["10Foundation20ReferenceConvertibleP", "Int64"]
+- !private ["10Foundation20ReferenceConvertibleP", "PostgreSQLData"]
+- !private ["10Foundation20ReferenceConvertibleP", "PostgreSQLError"]
+- !private ["10Foundation20ReferenceConvertibleP", "_microsecondsPerSecond"]
+- !private ["10Foundation20ReferenceConvertibleP", "_psqlDateStart"]
+- !private ["10Foundation20ReferenceConvertibleP", "_secondsInDay"]
+- !private ["10Foundation20ReferenceConvertibleP", "as"]
+- ["10Foundation20ReferenceConvertibleP", "convertFromPostgreSQLData"]
+- ["10Foundation20ReferenceConvertibleP", "convertToPostgreSQLData"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "of"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince"]
+- !private ["4Core19ReflectionDecodableP", "Data"]
+- !private ["4Core19ReflectionDecodableP", "Date"]
+- !private ["4Core19ReflectionDecodableP", "DateFormatter"]
+- !private ["4Core19ReflectionDecodableP", "Double"]
+- !private ["4Core19ReflectionDecodableP", "Int32"]
+- !private ["4Core19ReflectionDecodableP", "Int64"]
+- !private ["4Core19ReflectionDecodableP", "PostgreSQLData"]
+- !private ["4Core19ReflectionDecodableP", "PostgreSQLError"]
+- !private ["4Core19ReflectionDecodableP", "TimeZone"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "_microsecondsPerSecond"]
+- !private ["4Core19ReflectionDecodableP", "_psqlDateStart"]
+- !private ["4Core19ReflectionDecodableP", "_secondsInDay"]
+- !private ["4Core19ReflectionDecodableP", "as"]
+- !private ["4Core19ReflectionDecodableP", "bigEndian"]
+- !private ["4Core19ReflectionDecodableP", "contains"]
+- ["4Core19ReflectionDecodableP", "convertFromPostgreSQLData"]
+- ["4Core19ReflectionDecodableP", "convertToPostgreSQLData"]
+- ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "of"]
+- !private ["4Core19ReflectionDecodableP", "parseDate"]
+- !private ["4Core19ReflectionDecodableP", "timeIntervalSince"]
+- !private ["ST", "DateFormatter"]
+- !private ["ST", "PostgreSQLError"]
+- !private ["ST", "TimeZone"]
+- !private ["ST", "as"]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "of"]
+- !private ["ST", "parseDate"]
+- !private ["SZ", "bigEndian"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "bigEndian"]
+- !private ["s13SignedNumericP", "init"]
+- ["10PostgreSQL0A7SQLDataV7StorageO", "binary"]
+- ["10PostgreSQL0A7SQLDataV7StorageO", "null"]
+- ["10PostgreSQL0A7SQLDataV7StorageO", "text"]
+- !private ["Sx", "bigEndian"]
+- !private ["Sx", "init"]
+- ["SS", "Date"]
+- !private ["SS", "DateFormatter"]
+- !private ["SS", "PostgreSQLError"]
+- ["SS", "String"]
+- !private ["SS", "TimeZone"]
+- !private ["SS", "contains"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "parseDate"]
+- !private ["Sy", "DateFormatter"]
+- !private ["Sy", "PostgreSQLError"]
+- !private ["Sy", "TimeZone"]
+- !private ["Sy", "contains"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "parseDate"]
+- !private ["s16TextOutputStreamP", "DateFormatter"]
+- !private ["s16TextOutputStreamP", "PostgreSQLError"]
+- !private ["s16TextOutputStreamP", "TimeZone"]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "parseDate"]
+- !private ["s20TextOutputStreamableP", "DateFormatter"]
+- !private ["s20TextOutputStreamableP", "PostgreSQLError"]
+- !private ["s20TextOutputStreamableP", "TimeZone"]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "parseDate"]
+- !private ["10Foundation8TimeZoneV", "init"]
+- !private ["s18_BitwiseOperationsP", "bigEndian"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "bigEndian"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "DateFormatter"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "PostgreSQLError"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "TimeZone"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "parseDate"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bigEndian"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "DateFormatter"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "PostgreSQLError"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "TimeZone"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "parseDate"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "DateFormatter"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "PostgreSQLError"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "TimeZone"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "contains"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "parseDate"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "DateFormatter"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "PostgreSQLError"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "TimeZone"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "parseDate"]
+- !private ["s33_ExpressibleByStringInterpolationP", "DateFormatter"]
+- !private ["s33_ExpressibleByStringInterpolationP", "PostgreSQLError"]
+- !private ["s33_ExpressibleByStringInterpolationP", "TimeZone"]
+- !private ["s33_ExpressibleByStringInterpolationP", "contains"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "parseDate"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bigEndian"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "parseDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parseDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "Date"]
+- !private ["s21_ObjectiveCBridgeableP", "DateFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "Int32"]
+- !private ["s21_ObjectiveCBridgeableP", "Int64"]
+- !private ["s21_ObjectiveCBridgeableP", "PostgreSQLData"]
+- !private ["s21_ObjectiveCBridgeableP", "PostgreSQLError"]
+- !private ["s21_ObjectiveCBridgeableP", "TimeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_microsecondsPerSecond"]
+- !private ["s21_ObjectiveCBridgeableP", "_psqlDateStart"]
+- !private ["s21_ObjectiveCBridgeableP", "_secondsInDay"]
+- !private ["s21_ObjectiveCBridgeableP", "as"]
+- !private ["s21_ObjectiveCBridgeableP", "bigEndian"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- ["s21_ObjectiveCBridgeableP", "convertFromPostgreSQLData"]
+- ["s21_ObjectiveCBridgeableP", "convertToPostgreSQLData"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "of"]
+- !private ["s21_ObjectiveCBridgeableP", "parseDate"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince"]
+- !private ["s16_SwiftStringViewP", "DateFormatter"]
+- !private ["s16_SwiftStringViewP", "PostgreSQLError"]
+- !private ["s16_SwiftStringViewP", "TimeZone"]
+- !private ["s16_SwiftStringViewP", "contains"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "parseDate"]
+depends-nominal:
+- "4Core22AnyReflectionDecodableP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "10Foundation4DateV"
+- !private "So15NSDateFormatterC"
+- !private "9Debugging10DebuggableP"
+- "Se"
+- !private "Sd"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "So11NSFormatterC"
+- "SH"
+- !private "s5Int32V"
+- !private "s5Int64V"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "10PostgreSQL0A7SQLDataV"
+- "10PostgreSQL0A18SQLDataConvertibleP"
+- "10PostgreSQL0A13SQLDataFormatV"
+- "10PostgreSQL0A30SQLDataTypeStaticRepresentableP"
+- !private "10PostgreSQL0A8SQLErrorV"
+- !private "Sk"
+- !private "Sm"
+- "10Foundation20ReferenceConvertibleP"
+- "4Core19ReflectionDecodableP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "10PostgreSQL0A7SQLDataV7StorageO"
+- !private "Sx"
+- "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation8TimeZoneV"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ec.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl.git-7027123552182886147/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bn.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/err.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslv.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509_vfy.h"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl-support.git--4693299605127529262/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-zlib-support.git--8689586224853335979/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CBase32/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CBcrypt/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "849ee437e3995102fabe86e1ab8eb3be"

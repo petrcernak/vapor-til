@@ -1,0 +1,528 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["10PostgreSQL0A13SQLConnectionC", ""]
+- ["10PostgreSQL0A13SQLConnectionC", "query"]
+- ["10PostgreSQL0A13SQLConnectionC", "query"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- !private "AssignmentPrecedence"
+- !private "Data"
+- !private "Encodable"
+- !private "FloatLiteralType"
+- "Future"
+- !private "IntegerLiteralType"
+- "PostgreSQLColumn"
+- "PostgreSQLConnection"
+- "PostgreSQLData"
+- !private "PostgreSQLDataEncoder"
+- !private "PostgreSQLError"
+- !private "PostgreSQLMessage"
+- "PostgreSQLQuery"
+- "PostgreSQLResultFormat"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+depends-member:
+- !private ["10PostgreSQL8AnyArrayP", "map"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- !private ["4Core22AnyReflectionDecodableP", "utf8"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "utf8"]
+- !private ["5Async11BasicWorkerP", "Data"]
+- !private ["5Async11BasicWorkerP", "PostgreSQLDataEncoder"]
+- !private ["5Async11BasicWorkerP", "PostgreSQLError"]
+- !private ["5Async11BasicWorkerP", "_query"]
+- !private ["5Async11BasicWorkerP", "eventLoop"]
+- !private ["5Async11BasicWorkerP", "logger"]
+- !private ["5Async11BasicWorkerP", "operation"]
+- !private ["5Async11BasicWorkerP", "query"]
+- !private ["5Async11BasicWorkerP", "send"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "utf8"]
+- !private ["10PostgreSQL0A10SQLMessageO11BindRequestV", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO11BindRequestV", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "utf8"]
+- !private ["10PostgreSQL0A10SQLMessageO15DescribeRequestV7CommandO", "statement"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "utf8"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "storage"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["11DatabaseKit0A11ConnectableP", "Data"]
+- !private ["11DatabaseKit0A11ConnectableP", "PostgreSQLDataEncoder"]
+- !private ["11DatabaseKit0A11ConnectableP", "PostgreSQLError"]
+- !private ["11DatabaseKit0A11ConnectableP", "_query"]
+- !private ["11DatabaseKit0A11ConnectableP", "eventLoop"]
+- !private ["11DatabaseKit0A11ConnectableP", "logger"]
+- !private ["11DatabaseKit0A11ConnectableP", "operation"]
+- !private ["11DatabaseKit0A11ConnectableP", "query"]
+- !private ["11DatabaseKit0A11ConnectableP", "send"]
+- !private ["11DatabaseKit0A10ConnectionP", "Data"]
+- !private ["11DatabaseKit0A10ConnectionP", "PostgreSQLDataEncoder"]
+- !private ["11DatabaseKit0A10ConnectionP", "PostgreSQLError"]
+- !private ["11DatabaseKit0A10ConnectionP", "_query"]
+- !private ["11DatabaseKit0A10ConnectionP", "eventLoop"]
+- !private ["11DatabaseKit0A10ConnectionP", "logger"]
+- !private ["11DatabaseKit0A10ConnectionP", "operation"]
+- !private ["11DatabaseKit0A10ConnectionP", "query"]
+- !private ["11DatabaseKit0A10ConnectionP", "send"]
+- !private ["11DatabaseKit0A6LoggerC", "record"]
+- !private ["11DatabaseKit0A9QueryableP", "Data"]
+- !private ["11DatabaseKit0A9QueryableP", "PostgreSQLDataEncoder"]
+- !private ["11DatabaseKit0A9QueryableP", "PostgreSQLError"]
+- !private ["11DatabaseKit0A9QueryableP", "_query"]
+- !private ["11DatabaseKit0A9QueryableP", "eventLoop"]
+- !private ["11DatabaseKit0A9QueryableP", "logger"]
+- !private ["11DatabaseKit0A9QueryableP", "operation"]
+- !private ["11DatabaseKit0A9QueryableP", "query"]
+- !private ["11DatabaseKit0A9QueryableP", "send"]
+- !private ["9Debugging10DebuggableP", "init"]
+- !private ["Se", "binary"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "text"]
+- !private ["Se", "utf8"]
+- !private ["10PostgreSQL0A10SQLMessageO15DescribeRequestV", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO15DescribeRequestV", "init"]
+- !private ["SE", "binary"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "text"]
+- !private ["SE", "utf8"]
+- !private ["SQ", "binary"]
+- !private ["SQ", "description"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "null"]
+- !private ["SQ", "statement"]
+- !private ["SQ", "storage"]
+- !private ["SQ", "text"]
+- !private ["SQ", "type"]
+- !private ["SQ", "utf8"]
+- !private ["s5ErrorP", "init"]
+- !private ["3NIO9EventLoopP", "newFailedFuture"]
+- !private ["3NIO14EventLoopGroupP", "Data"]
+- !private ["3NIO14EventLoopGroupP", "PostgreSQLDataEncoder"]
+- !private ["3NIO14EventLoopGroupP", "PostgreSQLError"]
+- !private ["3NIO14EventLoopGroupP", "_query"]
+- !private ["3NIO14EventLoopGroupP", "eventLoop"]
+- !private ["3NIO14EventLoopGroupP", "logger"]
+- !private ["3NIO14EventLoopGroupP", "newFailedFuture"]
+- !private ["3NIO14EventLoopGroupP", "operation"]
+- !private ["3NIO14EventLoopGroupP", "query"]
+- !private ["3NIO14EventLoopGroupP", "send"]
+- !private ["10PostgreSQL0A10SQLMessageO14ExecuteRequestV", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO14ExecuteRequestV", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "serialize"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "serialize"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "serialize"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["7Service10ExtendableP", "Data"]
+- !private ["7Service10ExtendableP", "PostgreSQLDataEncoder"]
+- !private ["7Service10ExtendableP", "PostgreSQLError"]
+- !private ["7Service10ExtendableP", "_query"]
+- !private ["7Service10ExtendableP", "eventLoop"]
+- !private ["7Service10ExtendableP", "logger"]
+- !private ["7Service10ExtendableP", "operation"]
+- !private ["7Service10ExtendableP", "query"]
+- !private ["7Service10ExtendableP", "send"]
+- !private ["10PostgreSQL0A10SQLMessageO10FormatCodeO", "binary"]
+- !private ["10PostgreSQL0A10SQLMessageO10FormatCodeO", "text"]
+- !private ["SH", "binary"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "statement"]
+- !private ["SH", "text"]
+- !private ["SH", "utf8"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4Core23LosslessDataConvertibleP", "utf8"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So8NSObjectC", "utf8"]
+- !private ["So8NSObjectP", "utf8"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "utf8"]
+- !private ["10PostgreSQL0A10SQLMessageO11BindRequestV9ParameterV", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO11BindRequestV9ParameterV", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO12ParseRequestV", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO12ParseRequestV", "init"]
+- ["10PostgreSQL0A9SQLColumnV", "deinit"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "Data"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "Encodable"]
+- ["10PostgreSQL0A13SQLConnectionC", "Future"]
+- ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLColumn"]
+- ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLData"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLDataEncoder"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLError"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLMessage"]
+- ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLQuery"]
+- ["10PostgreSQL0A13SQLConnectionC", "PostgreSQLResultFormat"]
+- ["10PostgreSQL0A13SQLConnectionC", "String"]
+- ["10PostgreSQL0A13SQLConnectionC", "Void"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "_query"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "deinit"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "eventLoop"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "logger"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "operation"]
+- ["10PostgreSQL0A13SQLConnectionC", "query"]
+- !private ["10PostgreSQL0A13SQLConnectionC", "send"]
+- !private ["10PostgreSQL0A7SQLDataV", "deinit"]
+- !private ["10PostgreSQL0A7SQLDataV", "description"]
+- !private ["10PostgreSQL0A7SQLDataV", "storage"]
+- !private ["10PostgreSQL0A7SQLDataV", "type"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "description"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "storage"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "type"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "utf8"]
+- !private ["10PostgreSQL0A14SQLDataEncoderV", "encode"]
+- !private ["10PostgreSQL0A14SQLDataEncoderV", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "utf8"]
+- !private ["10PostgreSQL0A8SQLErrorV", "deinit"]
+- !private ["10PostgreSQL0A8SQLErrorV", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO", "RowDescription"]
+- !private ["10PostgreSQL0A10SQLMessageO", "bind"]
+- !private ["10PostgreSQL0A10SQLMessageO", "bindComplete"]
+- !private ["10PostgreSQL0A10SQLMessageO", "close"]
+- !private ["10PostgreSQL0A10SQLMessageO", "dataRow"]
+- !private ["10PostgreSQL0A10SQLMessageO", "describe"]
+- !private ["10PostgreSQL0A10SQLMessageO", "execute"]
+- !private ["10PostgreSQL0A10SQLMessageO", "noData"]
+- !private ["10PostgreSQL0A10SQLMessageO", "parameterDescription"]
+- !private ["10PostgreSQL0A10SQLMessageO", "parse"]
+- !private ["10PostgreSQL0A10SQLMessageO", "parseComplete"]
+- !private ["10PostgreSQL0A10SQLMessageO", "rowDescription"]
+- !private ["10PostgreSQL0A10SQLMessageO", "sync"]
+- !private ["10PostgreSQL0A8SQLQueryO", "deinit"]
+- !private ["10PostgreSQL0A8SQLQueryO", "serialize"]
+- !private ["10PostgreSQL0A15SQLResultFormatV", "binary"]
+- !private ["10PostgreSQL0A15SQLResultFormatV", "formatCodes"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["Sm", "utf8"]
+- !private ["SY", "binary"]
+- !private ["SY", "statement"]
+- !private ["SY", "text"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- !private ["4Core19ReflectionDecodableP", "utf8"]
+- !private ["10PostgreSQL0A10SQLMessageO14RowDescriptionV", "parse"]
+- !private ["3SQL14SQLConnectableP", "Data"]
+- !private ["3SQL14SQLConnectableP", "PostgreSQLDataEncoder"]
+- !private ["3SQL14SQLConnectableP", "PostgreSQLError"]
+- !private ["3SQL14SQLConnectableP", "_query"]
+- !private ["3SQL14SQLConnectableP", "eventLoop"]
+- !private ["3SQL14SQLConnectableP", "logger"]
+- !private ["3SQL14SQLConnectableP", "operation"]
+- !private ["3SQL14SQLConnectableP", "query"]
+- !private ["3SQL14SQLConnectableP", "send"]
+- !private ["3SQL13SQLConnectionP", "Data"]
+- !private ["3SQL13SQLConnectionP", "PostgreSQLDataEncoder"]
+- !private ["3SQL13SQLConnectionP", "PostgreSQLError"]
+- !private ["3SQL13SQLConnectionP", "_query"]
+- !private ["3SQL13SQLConnectionP", "eventLoop"]
+- !private ["3SQL13SQLConnectionP", "logger"]
+- !private ["3SQL13SQLConnectionP", "operation"]
+- !private ["3SQL13SQLConnectionP", "query"]
+- !private ["3SQL13SQLConnectionP", "send"]
+- !private ["3SQL8SQLQueryP", "serialize"]
+- !private ["3SQL15SQLSerializableP", "serialize"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "utf8"]
+- !private ["10PostgreSQL0A7SQLDataV7StorageO", "binary"]
+- !private ["10PostgreSQL0A7SQLDataV7StorageO", "null"]
+- !private ["10PostgreSQL0A7SQLDataV7StorageO", "text"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "utf8"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "utf8"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "utf8"]
+depends-nominal:
+- !private "10PostgreSQL8AnyArrayP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "5Async11BasicWorkerP"
+- !private "SK"
+- !private "10PostgreSQL0A10SQLMessageO11BindRequestV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10PostgreSQL0A10SQLMessageO15DescribeRequestV7CommandO"
+- !private "SL"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "11DatabaseKit0A10ConnectionP"
+- !private "11DatabaseKit0A6LoggerC"
+- !private "11DatabaseKit0A9QueryableP"
+- !private "9Debugging10DebuggableP"
+- !private "Se"
+- !private "10PostgreSQL0A10SQLMessageO15DescribeRequestV"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO14EventLoopGroupP"
+- !private "10PostgreSQL0A10SQLMessageO14ExecuteRequestV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Service10ExtendableP"
+- !private "10PostgreSQL0A10SQLMessageO10FormatCodeO"
+- !private "SH"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "10PostgreSQL0A10SQLMessageO11BindRequestV9ParameterV"
+- !private "10PostgreSQL0A10SQLMessageO12ParseRequestV"
+- "10PostgreSQL0A9SQLColumnV"
+- "10PostgreSQL0A13SQLConnectionC"
+- !private "10PostgreSQL0A7SQLDataV"
+- !private "10PostgreSQL0A18SQLDataConvertibleP"
+- !private "10PostgreSQL0A14SQLDataEncoderV"
+- !private "10PostgreSQL0A30SQLDataTypeStaticRepresentableP"
+- !private "10PostgreSQL0A8SQLErrorV"
+- !private "10PostgreSQL0A10SQLMessageO"
+- !private "10PostgreSQL0A8SQLQueryO"
+- !private "10PostgreSQL0A15SQLResultFormatV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core19ReflectionDecodableP"
+- !private "10PostgreSQL0A10SQLMessageO14RowDescriptionV"
+- !private "3SQL14SQLConnectableP"
+- !private "3SQL13SQLConnectionP"
+- !private "3SQL8SQLQueryP"
+- !private "3SQL15SQLSerializableP"
+- !private "ST"
+- !private "10PostgreSQL0A7SQLDataV7StorageO"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ec.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl.git-4185672342095147391/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--4097429712292640209/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bn.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/err.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslv.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509_vfy.h"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl-support.git--5344386155445180204/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-zlib-support.git--6538424668019974428/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--4097429712292640209/Sources/CBase32/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--4097429712292640209/Sources/CBcrypt/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "09f572b0afef092bf7637c9884a3e24f"

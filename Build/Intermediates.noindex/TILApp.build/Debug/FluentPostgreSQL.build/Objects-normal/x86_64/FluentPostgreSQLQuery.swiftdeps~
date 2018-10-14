@@ -1,0 +1,263 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FluentPostgreSQLQueryStatement"
+- "FluentPostgreSQLQuery"
+provides-nominal:
+- "16FluentPostgreSQL0aB17SQLQueryStatementO"
+- "16FluentPostgreSQL0aB8SQLQueryV"
+provides-member:
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", ""]
+- ["16FluentPostgreSQL0aB8SQLQueryV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- "FluentPostgreSQLQuery"
+- "FluentPostgreSQLQueryStatement"
+- "FluentSQLQuery"
+- "FluentSQLQueryStatement"
+- "Int"
+- !private "IntegerLiteralType"
+- "PostgreSQLBinaryOperator"
+- "PostgreSQLExpression"
+- "PostgreSQLGroupBy"
+- "PostgreSQLJoin"
+- "PostgreSQLOrderBy"
+- "PostgreSQLSelectExpression"
+- "PostgreSQLTableIdentifier"
+- "PostgreSQLUpsert"
+- "String"
+depends-member:
+- ["SQ", ""]
+- !private ["SQ", "_delete"]
+- ["SQ", "_insert"]
+- !private ["SQ", "_select"]
+- !private ["SQ", "_update"]
+- !private ["SQ", "and"]
+- ["SQ", "delete"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "insert"]
+- ["SQ", "isInsert"]
+- ["SQ", "select"]
+- ["SQ", "update"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "and"]
+- !private ["s26ExpressibleByStringLiteralP", "and"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "and"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "Expression"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "FluentPostgreSQLQuery"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "FluentPostgreSQLQueryStatement"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "GroupBy"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "Int"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "Join"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "OrderBy"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "PostgreSQLBinaryOperator"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "PostgreSQLExpression"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "PostgreSQLGroupBy"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "PostgreSQLJoin"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "PostgreSQLOrderBy"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "PostgreSQLSelectExpression"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "PostgreSQLTableIdentifier"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "PostgreSQLUpsert"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "SelectExpression"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "Statement"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "String"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "TableIdentifier"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "Upsert"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "defaultBinaryOperator"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "deinit"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "groupBy"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "init"]
+- !private ["16FluentPostgreSQL0aB8SQLQueryV", "init"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "joins"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "keys"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "limit"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "offset"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "orderBy"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "predicate"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "query"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "statement"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "table"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "upsert"]
+- ["16FluentPostgreSQL0aB8SQLQueryV", "values"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "Bool"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "FluentPostgreSQLQueryStatement"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "__derived_enum_equals"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "_delete"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "_insert"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "_select"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "_update"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "deinit"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "delete"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "hash"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "hashValue"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "insert"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "isInsert"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "select"]
+- ["16FluentPostgreSQL0aB17SQLQueryStatementO", "update"]
+- ["9FluentSQL0A8SQLQueryP", "Expression"]
+- ["9FluentSQL0A8SQLQueryP", "GroupBy"]
+- ["9FluentSQL0A8SQLQueryP", "Join"]
+- ["9FluentSQL0A8SQLQueryP", "OrderBy"]
+- ["9FluentSQL0A8SQLQueryP", "SelectExpression"]
+- ["9FluentSQL0A8SQLQueryP", "Statement"]
+- ["9FluentSQL0A8SQLQueryP", "TableIdentifier"]
+- ["9FluentSQL0A8SQLQueryP", ""]
+- ["9FluentSQL0A8SQLQueryP", "defaultBinaryOperator"]
+- ["9FluentSQL0A8SQLQueryP", "groupBy"]
+- !private ["9FluentSQL0A8SQLQueryP", "init"]
+- !private ["9FluentSQL0A8SQLQueryP", "init"]
+- ["9FluentSQL0A8SQLQueryP", "joins"]
+- ["9FluentSQL0A8SQLQueryP", "keys"]
+- ["9FluentSQL0A8SQLQueryP", "limit"]
+- ["9FluentSQL0A8SQLQueryP", "offset"]
+- ["9FluentSQL0A8SQLQueryP", "orderBy"]
+- ["9FluentSQL0A8SQLQueryP", "predicate"]
+- ["9FluentSQL0A8SQLQueryP", "query"]
+- ["9FluentSQL0A8SQLQueryP", "statement"]
+- ["9FluentSQL0A8SQLQueryP", "table"]
+- ["9FluentSQL0A8SQLQueryP", "values"]
+- ["9FluentSQL0A17SQLQueryStatementP", ""]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "_delete"]
+- ["9FluentSQL0A17SQLQueryStatementP", "_insert"]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "_select"]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "_update"]
+- ["9FluentSQL0A17SQLQueryStatementP", "delete"]
+- ["9FluentSQL0A17SQLQueryStatementP", "hash"]
+- ["9FluentSQL0A17SQLQueryStatementP", "hashValue"]
+- ["9FluentSQL0A17SQLQueryStatementP", "insert"]
+- ["9FluentSQL0A17SQLQueryStatementP", "isInsert"]
+- ["9FluentSQL0A17SQLQueryStatementP", "select"]
+- ["9FluentSQL0A17SQLQueryStatementP", "update"]
+- ["SH", ""]
+- !private ["SH", "_delete"]
+- ["SH", "_insert"]
+- !private ["SH", "_select"]
+- !private ["SH", "_update"]
+- ["SH", "delete"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "insert"]
+- ["SH", "isInsert"]
+- ["SH", "select"]
+- ["SH", "update"]
+- !private ["s6HasherV", "combine"]
+- !private ["10PostgreSQL0A17SQLBinaryOperatorV", "and"]
+- !private ["3SQL17SQLBinaryOperatorP", "and"]
+- !private ["3SQL15SQLSerializableP", "and"]
+depends-nominal:
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "16FluentPostgreSQL0aB8SQLQueryV"
+- "16FluentPostgreSQL0aB17SQLQueryStatementO"
+- "9FluentSQL0A8SQLQueryP"
+- "9FluentSQL0A17SQLQueryStatementP"
+- "SH"
+- !private "s6HasherV"
+- !private "10PostgreSQL0A17SQLBinaryOperatorV"
+- !private "3SQL17SQLBinaryOperatorP"
+- !private "3SQL15SQLSerializableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/PostgreSQL.framework/Modules/PostgreSQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/FluentSQL.framework/Modules/FluentSQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Command.framework/Modules/Command.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Logging.framework/Modules/Logging.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Fluent.framework/Modules/Fluent.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ec.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl.git-7027123552182886147/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bn.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/err.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslv.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509_vfy.h"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl-support.git--4693299605127529262/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-zlib-support.git--8689586224853335979/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CBase32/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CBcrypt/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "149c3e31055611018e0327ac4e981ab6"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "e0eb48da7b2b342bc61a4539d7b3fdce"
+build_time: [1539529998, 78704000]
+inputs:
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/NIOPriorityQueue/Heap.swift": [1538471684, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/NIOPriorityQueue/PriorityQueue.swift": [1538471683, 0]

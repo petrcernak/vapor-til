@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "575ff2a39117ab2a822aae8c9bbe9235"
+build_time: [1539529999, 731715000]
+inputs:
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/BitsError.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/Byte+Alphabet.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/Byte+Control.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/Byte+Digit.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/ByteBuffer+binaryFloatingPointOperations.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/ByteBuffer+peek.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/ByteBuffer+require.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/ByteBuffer+string.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/Bytes.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/Data+Bytes.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/Data+Strings.swift": [1538471682, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/core.git--7022767918004758573/Sources/Bits/Deprecated.swift": [1538471682, 0]

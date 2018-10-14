@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "70983475583593b4ea5f29f9d3750e70"
+build_time: [1539530280, 740792000]
+inputs:
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Parameter/Parameter.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Parameter/ParameterValue.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Parameter/Parameters.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Register/PathComponent.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Register/Route.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Register/RouterOption.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Routing/RoutableComponent.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Routing/RouterNode.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Routing/TrieRouter.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Utilities/Deprecated.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Utilities/Exports.swift": [1539530229, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/routing.git--7013781861097472442/Sources/Routing/Utilities/RoutingError.swift": [1539530229, 0]

@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "e72aa94c0fe90d8c462b2e9f1ed45df4"
+build_time: [1539530007, 434465000]
+inputs:
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent.git--769962246910936668/Sources/FluentSQL/Exports.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent.git--769962246910936668/Sources/FluentSQL/FluentSQLQuery.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent.git--769962246910936668/Sources/FluentSQL/FluentSQLSchema.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent.git--769962246910936668/Sources/FluentSQL/QueryBuilder+GroupBy.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent.git--769962246910936668/Sources/FluentSQL/SQL+Contains.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent.git--769962246910936668/Sources/FluentSQL/SQL+JoinSupporting.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent.git--769962246910936668/Sources/FluentSQL/SQL+QuerySupporting.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent.git--769962246910936668/Sources/FluentSQL/SQL+SchemaSupporting.swift": [1538471680, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/fluent.git--769962246910936668/Sources/FluentSQL/SchemaBuilder+Field.swift": [1538471680, 0]

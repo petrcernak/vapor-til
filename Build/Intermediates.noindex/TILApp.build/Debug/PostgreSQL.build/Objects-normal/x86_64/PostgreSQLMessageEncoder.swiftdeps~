@@ -1,0 +1,639 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostgreSQLMessageEncoder"
+provides-nominal:
+- "10PostgreSQL0A17SQLMessageEncoderC"
+provides-member:
+- ["10PostgreSQL0A17SQLMessageEncoderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-"
+- !private "Byte"
+- "ByteBuffer"
+- "ChannelHandlerContext"
+- !private "FloatLiteralType"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- "MessageToByteEncoder"
+- !private "PostgreSQLError"
+- "PostgreSQLMessage"
+- "PostgreSQLMessageEncoder"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "VERBOSE"
+- !private "type"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "B"]
+- !private ["4Core22AnyReflectionDecodableP", "D"]
+- !private ["4Core22AnyReflectionDecodableP", "E"]
+- !private ["4Core22AnyReflectionDecodableP", "P"]
+- !private ["4Core22AnyReflectionDecodableP", "Q"]
+- !private ["4Core22AnyReflectionDecodableP", "S"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "p"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "B"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "D"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "E"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "P"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "Q"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "S"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "p"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sz", "B"]
+- !private ["Sz", "D"]
+- !private ["Sz", "E"]
+- !private ["Sz", "P"]
+- !private ["Sz", "Q"]
+- !private ["Sz", "S"]
+- !private ["Sz", "init"]
+- !private ["Sz", "p"]
+- !private ["10PostgreSQL0A10SQLMessageO11BindRequestV", "serialize"]
+- !private ["3NIO10ByteBufferV", "moveWriterIndex"]
+- !private ["3NIO10ByteBufferV", "set"]
+- !private ["3NIO10ByteBufferV", "write"]
+- !private ["3NIO10ByteBufferV", "writerIndex"]
+- !private ["s7CVarArgP", "B"]
+- !private ["s7CVarArgP", "D"]
+- !private ["s7CVarArgP", "E"]
+- !private ["s7CVarArgP", "P"]
+- !private ["s7CVarArgP", "Q"]
+- !private ["s7CVarArgP", "S"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "p"]
+- !private ["3NIO14ChannelHandlerP", "Byte"]
+- !private ["3NIO14ChannelHandlerP", "Int32"]
+- ["3NIO14ChannelHandlerP", "OutboundIn"]
+- ["3NIO14ChannelHandlerP", "OutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "PostgreSQLError"]
+- !private ["3NIO14ChannelHandlerP", "VERBOSE"]
+- ["3NIO14ChannelHandlerP", ""]
+- ["3NIO14ChannelHandlerP", "_Default_OutboundOut"]
+- ["3NIO14ChannelHandlerP", "allocateOutBuffer"]
+- ["3NIO14ChannelHandlerP", "bind"]
+- ["3NIO14ChannelHandlerP", "close"]
+- ["3NIO14ChannelHandlerP", "connect"]
+- ["3NIO14ChannelHandlerP", "encode"]
+- ["3NIO14ChannelHandlerP", "flush"]
+- ["3NIO14ChannelHandlerP", "handlerAdded"]
+- ["3NIO14ChannelHandlerP", "handlerRemoved"]
+- ["3NIO14ChannelHandlerP", "read"]
+- ["3NIO14ChannelHandlerP", "register"]
+- ["3NIO14ChannelHandlerP", "triggerUserOutboundEvent"]
+- !private ["3NIO14ChannelHandlerP", "type"]
+- ["3NIO14ChannelHandlerP", "unwrapOutboundIn"]
+- ["3NIO14ChannelHandlerP", "wrapOutboundOut"]
+- ["3NIO14ChannelHandlerP", "write"]
+- !private ["3NIO22ChannelOutboundHandlerP", "Byte"]
+- !private ["3NIO22ChannelOutboundHandlerP", "Int32"]
+- ["3NIO22ChannelOutboundHandlerP", "OutboundIn"]
+- ["3NIO22ChannelOutboundHandlerP", "OutboundOut"]
+- !private ["3NIO22ChannelOutboundHandlerP", "PostgreSQLError"]
+- !private ["3NIO22ChannelOutboundHandlerP", "VERBOSE"]
+- ["3NIO22ChannelOutboundHandlerP", ""]
+- ["3NIO22ChannelOutboundHandlerP", "_Default_OutboundOut"]
+- ["3NIO22ChannelOutboundHandlerP", "allocateOutBuffer"]
+- ["3NIO22ChannelOutboundHandlerP", "bind"]
+- ["3NIO22ChannelOutboundHandlerP", "close"]
+- ["3NIO22ChannelOutboundHandlerP", "connect"]
+- ["3NIO22ChannelOutboundHandlerP", "encode"]
+- ["3NIO22ChannelOutboundHandlerP", "flush"]
+- ["3NIO22ChannelOutboundHandlerP", "handlerAdded"]
+- ["3NIO22ChannelOutboundHandlerP", "handlerRemoved"]
+- ["3NIO22ChannelOutboundHandlerP", "read"]
+- ["3NIO22ChannelOutboundHandlerP", "register"]
+- ["3NIO22ChannelOutboundHandlerP", "triggerUserOutboundEvent"]
+- !private ["3NIO22ChannelOutboundHandlerP", "type"]
+- ["3NIO22ChannelOutboundHandlerP", "unwrapOutboundIn"]
+- ["3NIO22ChannelOutboundHandlerP", "wrapOutboundOut"]
+- ["3NIO22ChannelOutboundHandlerP", "write"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "B"]
+- !private ["SL", "D"]
+- !private ["SL", "E"]
+- !private ["SL", "P"]
+- !private ["SL", "Q"]
+- !private ["SL", "S"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "p"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "B"]
+- !private ["s29CustomPlaygroundQuickLookableP", "D"]
+- !private ["s29CustomPlaygroundQuickLookableP", "E"]
+- !private ["s29CustomPlaygroundQuickLookableP", "P"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Q"]
+- !private ["s29CustomPlaygroundQuickLookableP", "S"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "p"]
+- !private ["s17CustomReflectableP", "B"]
+- !private ["s17CustomReflectableP", "D"]
+- !private ["s17CustomReflectableP", "E"]
+- !private ["s17CustomReflectableP", "P"]
+- !private ["s17CustomReflectableP", "Q"]
+- !private ["s17CustomReflectableP", "S"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "p"]
+- !private ["s23CustomStringConvertibleP", "B"]
+- !private ["s23CustomStringConvertibleP", "D"]
+- !private ["s23CustomStringConvertibleP", "E"]
+- !private ["s23CustomStringConvertibleP", "P"]
+- !private ["s23CustomStringConvertibleP", "Q"]
+- !private ["s23CustomStringConvertibleP", "S"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "moveWriterIndex"]
+- !private ["s23CustomStringConvertibleP", "p"]
+- !private ["s23CustomStringConvertibleP", "serialize"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["s23CustomStringConvertibleP", "writerIndex"]
+- !private ["9Debugging10DebuggableP", "init"]
+- !private ["Se", "B"]
+- !private ["Se", "D"]
+- !private ["Se", "E"]
+- !private ["Se", "P"]
+- !private ["Se", "Q"]
+- !private ["Se", "S"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "p"]
+- !private ["10PostgreSQL0A10SQLMessageO15DescribeRequestV", "serialize"]
+- !private ["SE", "B"]
+- !private ["SE", "D"]
+- !private ["SE", "E"]
+- !private ["SE", "P"]
+- !private ["SE", "Q"]
+- !private ["SE", "S"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "p"]
+- !private ["SQ", "B"]
+- !private ["SQ", "D"]
+- !private ["SQ", "E"]
+- !private ["SQ", "P"]
+- !private ["SQ", "Q"]
+- !private ["SQ", "S"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "moveWriterIndex"]
+- !private ["SQ", "p"]
+- !private ["SQ", "set"]
+- !private ["SQ", "write"]
+- !private ["SQ", "writerIndex"]
+- !private ["s5ErrorP", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO14ExecuteRequestV", "serialize"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "B"]
+- !private ["s27ExpressibleByIntegerLiteralP", "D"]
+- !private ["s27ExpressibleByIntegerLiteralP", "E"]
+- !private ["s27ExpressibleByIntegerLiteralP", "P"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Q"]
+- !private ["s27ExpressibleByIntegerLiteralP", "S"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "p"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "B"]
+- !private ["s17FixedWidthIntegerP", "D"]
+- !private ["s17FixedWidthIntegerP", "E"]
+- !private ["s17FixedWidthIntegerP", "P"]
+- !private ["s17FixedWidthIntegerP", "Q"]
+- !private ["s17FixedWidthIntegerP", "S"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "p"]
+- !private ["SH", "B"]
+- !private ["SH", "D"]
+- !private ["SH", "E"]
+- !private ["SH", "P"]
+- !private ["SH", "Q"]
+- !private ["SH", "S"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "p"]
+- !private ["s5Int32V", "init"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "B"]
+- !private ["s25LosslessStringConvertibleP", "D"]
+- !private ["s25LosslessStringConvertibleP", "E"]
+- !private ["s25LosslessStringConvertibleP", "P"]
+- !private ["s25LosslessStringConvertibleP", "Q"]
+- !private ["s25LosslessStringConvertibleP", "S"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "p"]
+- !private ["3NIO20MessageToByteEncoderP", "Byte"]
+- !private ["3NIO20MessageToByteEncoderP", "Int32"]
+- ["3NIO20MessageToByteEncoderP", "OutboundIn"]
+- ["3NIO20MessageToByteEncoderP", "OutboundOut"]
+- !private ["3NIO20MessageToByteEncoderP", "PostgreSQLError"]
+- !private ["3NIO20MessageToByteEncoderP", "VERBOSE"]
+- ["3NIO20MessageToByteEncoderP", ""]
+- ["3NIO20MessageToByteEncoderP", "_Default_OutboundOut"]
+- ["3NIO20MessageToByteEncoderP", "allocateOutBuffer"]
+- ["3NIO20MessageToByteEncoderP", "bind"]
+- ["3NIO20MessageToByteEncoderP", "close"]
+- ["3NIO20MessageToByteEncoderP", "connect"]
+- ["3NIO20MessageToByteEncoderP", "encode"]
+- ["3NIO20MessageToByteEncoderP", "flush"]
+- ["3NIO20MessageToByteEncoderP", "handlerAdded"]
+- ["3NIO20MessageToByteEncoderP", "handlerRemoved"]
+- ["3NIO20MessageToByteEncoderP", "read"]
+- ["3NIO20MessageToByteEncoderP", "register"]
+- ["3NIO20MessageToByteEncoderP", "triggerUserOutboundEvent"]
+- !private ["3NIO20MessageToByteEncoderP", "type"]
+- ["3NIO20MessageToByteEncoderP", "unwrapOutboundIn"]
+- ["3NIO20MessageToByteEncoderP", "wrapOutboundOut"]
+- ["3NIO20MessageToByteEncoderP", "write"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sj", "B"]
+- !private ["Sj", "D"]
+- !private ["Sj", "E"]
+- !private ["Sj", "P"]
+- !private ["Sj", "Q"]
+- !private ["Sj", "S"]
+- !private ["Sj", "init"]
+- !private ["Sj", "p"]
+- !private ["10PostgreSQL0A10SQLMessageO12ParseRequestV", "serialize"]
+- !private ["10PostgreSQL0A10SQLMessageO15PasswordMessageV", "serialize"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "B"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "D"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "E"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "P"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "Q"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "S"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "p"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "B"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "D"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "E"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "P"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "Q"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "S"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "p"]
+- !private ["10PostgreSQL0A8SQLErrorV", "deinit"]
+- !private ["10PostgreSQL0A8SQLErrorV", "init"]
+- ["10PostgreSQL0A10SQLMessageO", "bind"]
+- ["10PostgreSQL0A10SQLMessageO", "describe"]
+- ["10PostgreSQL0A10SQLMessageO", "execute"]
+- ["10PostgreSQL0A10SQLMessageO", "parse"]
+- ["10PostgreSQL0A10SQLMessageO", "password"]
+- ["10PostgreSQL0A10SQLMessageO", "query"]
+- ["10PostgreSQL0A10SQLMessageO", "sslSupportRequest"]
+- ["10PostgreSQL0A10SQLMessageO", "startupMessage"]
+- ["10PostgreSQL0A10SQLMessageO", "sync"]
+- !private ["10PostgreSQL0A17SQLMessageEncoderC", "Byte"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "ByteBuffer"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "ChannelHandlerContext"]
+- !private ["10PostgreSQL0A17SQLMessageEncoderC", "Int32"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "OutboundIn"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "OutboundOut"]
+- !private ["10PostgreSQL0A17SQLMessageEncoderC", "PostgreSQLError"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "PostgreSQLMessage"]
+- !private ["10PostgreSQL0A17SQLMessageEncoderC", "VERBOSE"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "_Default_OutboundOut"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "allocateOutBuffer"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "bind"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "close"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "connect"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "deinit"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "encode"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "flush"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "handlerAdded"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "handlerRemoved"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "init"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "read"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "register"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "triggerUserOutboundEvent"]
+- !private ["10PostgreSQL0A17SQLMessageEncoderC", "type"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "unwrapOutboundIn"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "wrapOutboundOut"]
+- ["10PostgreSQL0A17SQLMessageEncoderC", "write"]
+- !private ["10PostgreSQL0A10SQLMessageO5QueryV", "serialize"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["4Core19ReflectionDecodableP", "B"]
+- !private ["4Core19ReflectionDecodableP", "D"]
+- !private ["4Core19ReflectionDecodableP", "E"]
+- !private ["4Core19ReflectionDecodableP", "P"]
+- !private ["4Core19ReflectionDecodableP", "Q"]
+- !private ["4Core19ReflectionDecodableP", "S"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "p"]
+- !private ["10PostgreSQL0A10SQLMessageO17SSLSupportRequestV", "code"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["10PostgreSQL0A10SQLMessageO14StartupMessageV", "serialize"]
+- !private ["Sx", "B"]
+- !private ["Sx", "D"]
+- !private ["Sx", "E"]
+- !private ["Sx", "P"]
+- !private ["Sx", "Q"]
+- !private ["Sx", "S"]
+- !private ["Sx", "init"]
+- !private ["Sx", "p"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s5UInt8V", "B"]
+- !private ["s5UInt8V", "D"]
+- !private ["s5UInt8V", "E"]
+- !private ["s5UInt8V", "P"]
+- !private ["s5UInt8V", "Q"]
+- !private ["s5UInt8V", "S"]
+- !private ["s5UInt8V", "p"]
+- !private ["SU", "B"]
+- !private ["SU", "D"]
+- !private ["SU", "E"]
+- !private ["SU", "P"]
+- !private ["SU", "Q"]
+- !private ["SU", "S"]
+- !private ["SU", "p"]
+- !private ["s18_BitwiseOperationsP", "B"]
+- !private ["s18_BitwiseOperationsP", "D"]
+- !private ["s18_BitwiseOperationsP", "E"]
+- !private ["s18_BitwiseOperationsP", "P"]
+- !private ["s18_BitwiseOperationsP", "Q"]
+- !private ["s18_BitwiseOperationsP", "S"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "p"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "Byte"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "Int32"]
+- ["3NIO23_ChannelOutboundHandlerP", "OutboundIn"]
+- ["3NIO23_ChannelOutboundHandlerP", "OutboundOut"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "PostgreSQLError"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "VERBOSE"]
+- ["3NIO23_ChannelOutboundHandlerP", ""]
+- ["3NIO23_ChannelOutboundHandlerP", "_Default_OutboundOut"]
+- ["3NIO23_ChannelOutboundHandlerP", "allocateOutBuffer"]
+- ["3NIO23_ChannelOutboundHandlerP", "bind"]
+- ["3NIO23_ChannelOutboundHandlerP", "close"]
+- ["3NIO23_ChannelOutboundHandlerP", "connect"]
+- ["3NIO23_ChannelOutboundHandlerP", "encode"]
+- ["3NIO23_ChannelOutboundHandlerP", "flush"]
+- ["3NIO23_ChannelOutboundHandlerP", "handlerAdded"]
+- ["3NIO23_ChannelOutboundHandlerP", "handlerRemoved"]
+- ["3NIO23_ChannelOutboundHandlerP", "read"]
+- ["3NIO23_ChannelOutboundHandlerP", "register"]
+- ["3NIO23_ChannelOutboundHandlerP", "triggerUserOutboundEvent"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "type"]
+- ["3NIO23_ChannelOutboundHandlerP", "unwrapOutboundIn"]
+- ["3NIO23_ChannelOutboundHandlerP", "wrapOutboundOut"]
+- ["3NIO23_ChannelOutboundHandlerP", "write"]
+- !private ["3NIO23_EmittingChannelHandlerP", "Byte"]
+- !private ["3NIO23_EmittingChannelHandlerP", "Int32"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "PostgreSQLError"]
+- !private ["3NIO23_EmittingChannelHandlerP", "VERBOSE"]
+- ["3NIO23_EmittingChannelHandlerP", ""]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_OutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "allocateOutBuffer"]
+- ["3NIO23_EmittingChannelHandlerP", "bind"]
+- ["3NIO23_EmittingChannelHandlerP", "close"]
+- ["3NIO23_EmittingChannelHandlerP", "connect"]
+- ["3NIO23_EmittingChannelHandlerP", "encode"]
+- ["3NIO23_EmittingChannelHandlerP", "flush"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerRemoved"]
+- ["3NIO23_EmittingChannelHandlerP", "read"]
+- ["3NIO23_EmittingChannelHandlerP", "register"]
+- ["3NIO23_EmittingChannelHandlerP", "triggerUserOutboundEvent"]
+- !private ["3NIO23_EmittingChannelHandlerP", "type"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapOutboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapOutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "write"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "B"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "D"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "E"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "P"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Q"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "S"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "p"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "B"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "D"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "E"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "P"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Q"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "S"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "p"]
+- !private ["s21_ObjectiveCBridgeableP", "B"]
+- !private ["s21_ObjectiveCBridgeableP", "D"]
+- !private ["s21_ObjectiveCBridgeableP", "E"]
+- !private ["s21_ObjectiveCBridgeableP", "P"]
+- !private ["s21_ObjectiveCBridgeableP", "Q"]
+- !private ["s21_ObjectiveCBridgeableP", "S"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "p"]
+- !private ["s14_StringElementP", "B"]
+- !private ["s14_StringElementP", "D"]
+- !private ["s14_StringElementP", "E"]
+- !private ["s14_StringElementP", "P"]
+- !private ["s14_StringElementP", "Q"]
+- !private ["s14_StringElementP", "S"]
+- !private ["s14_StringElementP", "p"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "Sz"
+- !private "10PostgreSQL0A10SQLMessageO11BindRequestV"
+- !private "3NIO10ByteBufferV"
+- !private "s7CVarArgP"
+- "3NIO14ChannelHandlerP"
+- "3NIO22ChannelOutboundHandlerP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "9Debugging10DebuggableP"
+- !private "Se"
+- !private "10PostgreSQL0A10SQLMessageO15DescribeRequestV"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "10PostgreSQL0A10SQLMessageO14ExecuteRequestV"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "s5Int32V"
+- !private "10Foundation14LocalizedErrorP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- "3NIO20MessageToByteEncoderP"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- !private "10PostgreSQL0A10SQLMessageO12ParseRequestV"
+- !private "10PostgreSQL0A10SQLMessageO15PasswordMessageV"
+- !private "10PostgreSQL0A18SQLDataConvertibleP"
+- !private "10PostgreSQL0A30SQLDataTypeStaticRepresentableP"
+- !private "10PostgreSQL0A8SQLErrorV"
+- "10PostgreSQL0A10SQLMessageO"
+- "10PostgreSQL0A17SQLMessageEncoderC"
+- !private "10PostgreSQL0A10SQLMessageO5QueryV"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- !private "10PostgreSQL0A10SQLMessageO17SSLSupportRequestV"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "10PostgreSQL0A10SQLMessageO14StartupMessageV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s5UInt8V"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- "3NIO23_ChannelOutboundHandlerP"
+- "3NIO23_EmittingChannelHandlerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ec.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl.git-7027123552182886147/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bn.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/err.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslv.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509_vfy.h"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl-support.git--4693299605127529262/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-zlib-support.git--8689586224853335979/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CBase32/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--7099883249371240530/Sources/CBcrypt/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7f8288b9e6b2f9c729dfa06224752261"

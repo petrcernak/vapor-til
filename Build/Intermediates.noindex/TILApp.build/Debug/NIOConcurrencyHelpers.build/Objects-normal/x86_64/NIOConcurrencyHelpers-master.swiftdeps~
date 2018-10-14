@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "a3f51f97920e1498c64a44215d39bbb6"
+build_time: [1539529997, 860357000]
+inputs:
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/NIOConcurrencyHelpers/atomics.swift": [1538471683, 0]
+  "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git-674108760073509844/Sources/NIOConcurrencyHelpers/lock.swift": [1538471683, 0]

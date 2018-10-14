@@ -1,0 +1,478 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostgreSQLDataType"
+- "=="
+provides-nominal:
+- "10PostgreSQL0A11SQLDataTypeV"
+- "10PostgreSQL0A11SQLDataTypeV9PrimitiveO"
+provides-member:
+- ["10PostgreSQL0A11SQLDataTypeV", ""]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Encodable"
+- "Equatable"
+- "Int"
+- "PostgreSQLDataType"
+- !private "PostgreSQLDataTypeStaticRepresentable"
+- "SQLDataType"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "jsonb"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "description"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "jsonb"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "description"]
+- !private ["4Core21BasicKeyRepresentableP", "description"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sz", "description"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonb"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "description"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "jsonb"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "jsonb"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "description"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "jsonb"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "bigint"]
+- !private ["SQ", "bigserial"]
+- !private ["SQ", "boolean"]
+- ["SQ", "dataType"]
+- !private ["SQ", "description"]
+- !private ["SQ", "doublePrecision"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "integer"]
+- !private ["SQ", "isArray"]
+- !private ["SQ", "jsonb"]
+- !private ["SQ", "primitive"]
+- !private ["SQ", "real"]
+- !private ["SQ", "serial"]
+- ["SQ", "serialize"]
+- !private ["SQ", "smallint"]
+- !private ["SQ", "smallserial"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s23ExpressibleByNilLiteralP", "jsonb"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "description"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "jsonb"]
+- !private ["Si", "description"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "description"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sj", "description"]
+- !private ["Sq", "jsonb"]
+- !private ["4Core12OptionalTypeP", "jsonb"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "_getBuiltinLogicValue"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "description"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- !private ["10PostgreSQL0A18SQLDataConvertibleP", "init"]
+- ["10PostgreSQL0A11SQLDataTypeV", "=="]
+- ["10PostgreSQL0A11SQLDataTypeV", "Bool"]
+- ["10PostgreSQL0A11SQLDataTypeV", "Encodable"]
+- ["10PostgreSQL0A11SQLDataTypeV", "Int"]
+- ["10PostgreSQL0A11SQLDataTypeV", "PostgreSQLDataType"]
+- !private ["10PostgreSQL0A11SQLDataTypeV", "PostgreSQLDataTypeStaticRepresentable"]
+- ["10PostgreSQL0A11SQLDataTypeV", "Primitive"]
+- ["10PostgreSQL0A11SQLDataTypeV", "String"]
+- ["10PostgreSQL0A11SQLDataTypeV", "array"]
+- ["10PostgreSQL0A11SQLDataTypeV", "bigint"]
+- ["10PostgreSQL0A11SQLDataTypeV", "bigserial"]
+- ["10PostgreSQL0A11SQLDataTypeV", "bit"]
+- ["10PostgreSQL0A11SQLDataTypeV", "bool"]
+- ["10PostgreSQL0A11SQLDataTypeV", "boolean"]
+- ["10PostgreSQL0A11SQLDataTypeV", "box"]
+- ["10PostgreSQL0A11SQLDataTypeV", "bytea"]
+- ["10PostgreSQL0A11SQLDataTypeV", "char"]
+- ["10PostgreSQL0A11SQLDataTypeV", "cidr"]
+- ["10PostgreSQL0A11SQLDataTypeV", "circle"]
+- ["10PostgreSQL0A11SQLDataTypeV", "custom"]
+- ["10PostgreSQL0A11SQLDataTypeV", "dataType"]
+- ["10PostgreSQL0A11SQLDataTypeV", "date"]
+- ["10PostgreSQL0A11SQLDataTypeV", "decimal"]
+- ["10PostgreSQL0A11SQLDataTypeV", "deinit"]
+- ["10PostgreSQL0A11SQLDataTypeV", "doublePrecision"]
+- ["10PostgreSQL0A11SQLDataTypeV", "float4"]
+- ["10PostgreSQL0A11SQLDataTypeV", "float8"]
+- ["10PostgreSQL0A11SQLDataTypeV", "inet"]
+- !private ["10PostgreSQL0A11SQLDataTypeV", "init"]
+- !private ["10PostgreSQL0A11SQLDataTypeV", "init"]
+- ["10PostgreSQL0A11SQLDataTypeV", "int"]
+- ["10PostgreSQL0A11SQLDataTypeV", "int2"]
+- ["10PostgreSQL0A11SQLDataTypeV", "int4"]
+- ["10PostgreSQL0A11SQLDataTypeV", "int8"]
+- ["10PostgreSQL0A11SQLDataTypeV", "integer"]
+- ["10PostgreSQL0A11SQLDataTypeV", "interval"]
+- ["10PostgreSQL0A11SQLDataTypeV", "isArray"]
+- ["10PostgreSQL0A11SQLDataTypeV", "json"]
+- ["10PostgreSQL0A11SQLDataTypeV", "jsonb"]
+- ["10PostgreSQL0A11SQLDataTypeV", "line"]
+- ["10PostgreSQL0A11SQLDataTypeV", "lseg"]
+- ["10PostgreSQL0A11SQLDataTypeV", "macaddr"]
+- ["10PostgreSQL0A11SQLDataTypeV", "macaddr8"]
+- ["10PostgreSQL0A11SQLDataTypeV", "money"]
+- ["10PostgreSQL0A11SQLDataTypeV", "numeric"]
+- ["10PostgreSQL0A11SQLDataTypeV", "path"]
+- ["10PostgreSQL0A11SQLDataTypeV", "pgLSN"]
+- ["10PostgreSQL0A11SQLDataTypeV", "point"]
+- ["10PostgreSQL0A11SQLDataTypeV", "polygon"]
+- ["10PostgreSQL0A11SQLDataTypeV", "primitive"]
+- ["10PostgreSQL0A11SQLDataTypeV", "real"]
+- ["10PostgreSQL0A11SQLDataTypeV", "serial"]
+- ["10PostgreSQL0A11SQLDataTypeV", "serial2"]
+- ["10PostgreSQL0A11SQLDataTypeV", "serial4"]
+- ["10PostgreSQL0A11SQLDataTypeV", "serial8"]
+- ["10PostgreSQL0A11SQLDataTypeV", "serialize"]
+- ["10PostgreSQL0A11SQLDataTypeV", "smallint"]
+- ["10PostgreSQL0A11SQLDataTypeV", "smallserial"]
+- ["10PostgreSQL0A11SQLDataTypeV", "text"]
+- ["10PostgreSQL0A11SQLDataTypeV", "time"]
+- ["10PostgreSQL0A11SQLDataTypeV", "timestamp"]
+- ["10PostgreSQL0A11SQLDataTypeV", "timestamptz"]
+- ["10PostgreSQL0A11SQLDataTypeV", "timetz"]
+- ["10PostgreSQL0A11SQLDataTypeV", "tsquery"]
+- ["10PostgreSQL0A11SQLDataTypeV", "tsvector"]
+- ["10PostgreSQL0A11SQLDataTypeV", "txidSnapshot"]
+- ["10PostgreSQL0A11SQLDataTypeV", "uuid"]
+- ["10PostgreSQL0A11SQLDataTypeV", "varbit"]
+- ["10PostgreSQL0A11SQLDataTypeV", "varchar"]
+- ["10PostgreSQL0A11SQLDataTypeV", "xml"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "_getBuiltinLogicValue"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "description"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["10PostgreSQL0A30SQLDataTypeStaticRepresentableP", "postgreSQLDataType"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "Encodable"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "Int"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "String"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "bigint"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "bigserial"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "bit"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "boolean"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "box"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "bytea"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "char"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "cidr"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "circle"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "custom"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "date"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "doublePrecision"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "inet"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "integer"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "interval"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "json"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "jsonb"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "line"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "lseg"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "macaddr"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "macaddr8"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "money"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "numeric"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "path"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "pgLSN"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "point"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "polygon"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "real"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "serial"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "serialize"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "smallint"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "smallserial"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "text"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "time"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "timestamp"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "timestamptz"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "timetz"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "tsquery"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "tsvector"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "txidSnapshot"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "uuid"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "varbit"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "varchar"]
+- ["10PostgreSQL0A11SQLDataTypeV9PrimitiveO", "xml"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "description"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "jsonb"]
+- ["3SQL11SQLDataTypeP", ""]
+- !private ["3SQL11SQLDataTypeP", "bigint"]
+- !private ["3SQL11SQLDataTypeP", "bigserial"]
+- !private ["3SQL11SQLDataTypeP", "boolean"]
+- ["3SQL11SQLDataTypeP", "dataType"]
+- !private ["3SQL11SQLDataTypeP", "doublePrecision"]
+- !private ["3SQL11SQLDataTypeP", "init"]
+- !private ["3SQL11SQLDataTypeP", "init"]
+- !private ["3SQL11SQLDataTypeP", "integer"]
+- !private ["3SQL11SQLDataTypeP", "isArray"]
+- !private ["3SQL11SQLDataTypeP", "jsonb"]
+- !private ["3SQL11SQLDataTypeP", "primitive"]
+- !private ["3SQL11SQLDataTypeP", "real"]
+- !private ["3SQL11SQLDataTypeP", "serial"]
+- ["3SQL11SQLDataTypeP", "serialize"]
+- !private ["3SQL11SQLDataTypeP", "smallint"]
+- !private ["3SQL11SQLDataTypeP", "smallserial"]
+- ["3SQL15SQLSerializableP", ""]
+- !private ["3SQL15SQLSerializableP", "bigint"]
+- !private ["3SQL15SQLSerializableP", "bigserial"]
+- !private ["3SQL15SQLSerializableP", "boolean"]
+- ["3SQL15SQLSerializableP", "dataType"]
+- !private ["3SQL15SQLSerializableP", "doublePrecision"]
+- !private ["3SQL15SQLSerializableP", "init"]
+- !private ["3SQL15SQLSerializableP", "init"]
+- !private ["3SQL15SQLSerializableP", "integer"]
+- !private ["3SQL15SQLSerializableP", "isArray"]
+- !private ["3SQL15SQLSerializableP", "jsonb"]
+- !private ["3SQL15SQLSerializableP", "primitive"]
+- !private ["3SQL15SQLSerializableP", "real"]
+- !private ["3SQL15SQLSerializableP", "serial"]
+- ["3SQL15SQLSerializableP", "serialize"]
+- !private ["3SQL15SQLSerializableP", "smallint"]
+- !private ["3SQL15SQLSerializableP", "smallserial"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SZ", "description"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["Sx", "description"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s18_BitwiseOperationsP", "description"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "jsonb"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core15AnyOptionalTypeP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- !private "Sq"
+- !private "4Core12OptionalTypeP"
+- !private "10PostgreSQL0A18SQLDataConvertibleP"
+- "10PostgreSQL0A11SQLDataTypeV"
+- !private "10PostgreSQL0A30SQLDataTypeStaticRepresentableP"
+- "10PostgreSQL0A11SQLDataTypeV9PrimitiveO"
+- !private "Sm"
+- !private "4Core19ReflectionDecodableP"
+- "3SQL11SQLDataTypeP"
+- "3SQL15SQLSerializableP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/petercernak/vapor/TILApp/Build/Products/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ec.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl.git-4185672342095147391/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--4097429712292640209/Sources/CCryptoOpenSSL/include/c_crypto_openssl.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bn.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/err.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/opensslv.h"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio.git--2128188973977302459/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.6.4/include/openssl/x509_vfy.h"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-ssl-support.git--5344386155445180204/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/swift-nio-zlib-support.git--6538424668019974428/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--4097429712292640209/Sources/CBase32/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/.build/checkouts/crypto.git--4097429712292640209/Sources/CBcrypt/include/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/petercernak/vapor/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5bb5092817b9e7532c74beefd36b27e1"
